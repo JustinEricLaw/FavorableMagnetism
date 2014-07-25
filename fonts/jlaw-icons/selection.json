@@ -1,0 +1,117 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M1024 512c0 281.6-230.4 512-512 512s-512-230.4-512-512 230.4-512 512-512 512 230.4 512 512zM512 873.6c201.6 0 361.6-163.2 361.6-361.6 0-198.4-163.2-361.6-361.6-361.6s-361.6 163.2-361.6 361.6c0 201.6 160 361.6 361.6 361.6zM512 297.6v128h233.6c12.8 0 22.4 9.6 22.4 22.4v128c0 12.8-9.6 22.4-22.4 22.4h-233.6v128c0 12.8-9.6 22.4-22.4 22.4-6.4 0-12.8-3.2-16-6.4l-211.2-211.2c-3.2-9.6-6.4-12.8-6.4-19.2s3.2-9.6 6.4-16l214.4-214.4c6.4-6.4 16-6.4 22.4-3.2 6.4 3.2 12.8 12.8 12.8 19.2z"
+				],
+				"grid": 0,
+				"tags": [
+					"icon_previous"
+				]
+			},
+			"properties": {
+				"order": 1,
+				"id": 2,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "icon_previous",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M0 512c0-281.6 230.4-512 512-512s512 230.4 512 512-230.4 512-512 512-512-230.4-512-512zM512 150.4c-201.6 0-361.6 160-361.6 361.6 0 198.4 163.2 361.6 361.6 361.6s361.6-163.2 361.6-361.6c0-201.6-160-361.6-361.6-361.6zM512 726.4v-128h-233.6c-12.8 0-22.4-9.6-22.4-22.4v-128c0-12.8 9.6-22.4 22.4-22.4h233.6v-128c0-12.8 9.6-22.4 22.4-22.4 6.4 0 12.8 3.2 16 6.4l211.2 211.2c3.2 3.2 6.4 9.6 6.4 16s-3.2 9.6-6.4 16l-214.4 214.4c-6.4 6.4-16 6.4-22.4 3.2-6.4 0-12.8-9.6-12.8-16z"
+				],
+				"grid": 0,
+				"tags": [
+					"icon_next"
+				]
+			},
+			"properties": {
+				"order": 2,
+				"id": 1,
+				"prevSize": 32,
+				"code": 58882,
+				"name": "icon_next",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 1
+		},
+		{
+			"icon": {
+				"paths": [
+					"M0 0h278.4v278.4h-278.4v-278.4z",
+					"M374.4 0h278.4v278.4h-278.4v-278.4z",
+					"M745.6 0h278.4v278.4h-278.4v-278.4z",
+					"M0 374.4h278.4v278.4h-278.4v-278.4z",
+					"M374.4 374.4h278.4v278.4h-278.4v-278.4z",
+					"M745.6 374.4h278.4v278.4h-278.4v-278.4z",
+					"M0 745.6h278.4v278.4h-278.4v-278.4z",
+					"M374.4 745.6h278.4v278.4h-278.4v-278.4z",
+					"M745.6 745.6h278.4v278.4h-278.4v-278.4z"
+				],
+				"grid": 0,
+				"tags": [
+					"icon_grid"
+				]
+			},
+			"properties": {
+				"order": 3,
+				"id": 0,
+				"prevSize": 32,
+				"code": 58885,
+				"name": "icon_grid",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 2
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "jlaw-icons"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "jlaw-icons",
+				"majorVersion": 1,
+				"minorVersion": 0
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false,
+			"showVersion": false
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true
+	}
+}
