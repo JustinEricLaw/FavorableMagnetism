@@ -1,7 +1,7 @@
 /********************************************
 	Tag Resets
 ********************************************/
-
+/* line 5, style.scss */
 body,
 div,
 h1,
@@ -34,27 +34,27 @@ hgroup,
 menu,
 nav,
 section {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
+  margin: 0;
+  padding: 0;
+  border: 0; }
 
 /********************************************
 	Normalize CSS
 	http://necolas.github.com/normalize.css/
 ********************************************/
-
+/* line 47, style.scss */
 html {
-	height: 100%;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-}
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%; }
 
+/* line 52, style.scss */
 body {
-	min-height: 100%;
-	font-size: 100%;
-}
+  min-height: 100%;
+  font-size: 100%; }
 
+/* line 57, style.scss */
 article,
 aside,
 details,
@@ -68,90 +68,83 @@ section,
 audio,
 canvas,
 video {
-	display: block;
-}
+  display: block; }
 
+/* line 73, style.scss */
 sub,
 sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
-}
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
 
+/* line 81, style.scss */
 sup {
-	top: -0.5em;
-}
+  top: -0.5em; }
 
+/* line 85, style.scss */
 sub {
-	bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
+/* line 89, style.scss */
 pre {
-	white-space: pre;
-	white-space: pre-wrap;
-	word-wrap: break-word;
-}
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
 
+/* line 95, style.scss */
 b,
 strong {
-	font-weight: bold;
-}
+  font-weight: bold; }
 
+/* line 100, style.scss */
 abbr[title] {
-	border-bottom: 1px dotted;
-}
+  border-bottom: 1px dotted; }
 
+/* line 104, style.scss */
 input,
 textarea,
 button,
 select {
-	margin: 0;
-	font-size: 100%;
-	line-height: normal;
-	vertical-align: baseline;
-}
+  margin: 0;
+  font-size: 100%;
+  line-height: normal;
+  vertical-align: baseline; }
 
+/* line 114, style.scss */
 button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	cursor: pointer;
-	-webkit-appearance: button;
-}
+  cursor: pointer;
+  appearance: button; }
 
+/* line 122, style.scss */
 input[type="checkbox"],
 input[type="radio"] {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-}
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; }
 
+/* line 127, style.scss */
 textarea {
-	overflow: auto;
-}
+  overflow: auto; }
 
+/* line 131, style.scss */
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+  border-collapse: collapse;
+  border-spacing: 0; }
 
 /* ******************************************
 	Web Fonts
 ****************************************** */
 @font-face {
   font-family: 'jlaw-icons';
-  src:url('../fonts/jlaw-icons.eot?-tuycs4');
-  src:url('../fonts/jlaw-icons.eot?#iefix-tuycs4') format('embedded-opentype'),
-    url('../fonts/jlaw-icons.woff?-tuycs4') format('woff'),
-    url('../fonts/jlaw-icons.ttf?-tuycs4') format('truetype'),
-    url('../fonts/jlaw-icons.svg?-tuycs4#jlaw-icons') format('svg');
+  src: url("../fonts/jlaw-icons.eot?-tuycs4");
+  src: url("../fonts/jlaw-icons.eot?#iefix-tuycs4") format("embedded-opentype"), url("../fonts/jlaw-icons.woff?-tuycs4") format("woff"), url("../fonts/jlaw-icons.ttf?-tuycs4") format("truetype"), url("../fonts/jlaw-icons.svg?-tuycs4#jlaw-icons") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
-
+  font-style: normal; }
+/* line 150, style.scss */
 [class^="icon"], [class*="icon"] {
   font-family: 'jlaw-icons';
   speak: none;
@@ -162,49 +155,45 @@ table {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
-/* Better Font Rendering =========== */
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  -moz-osx-font-smoothing: grayscale; }
 
+/* line 166, style.scss */
 .icon_previous:before {
-  content: "\e601";
-}
+  content: "\e601"; }
 
+/* line 170, style.scss */
 .icon_next:before {
-  content: "\e602";
-}
+  content: "\e602"; }
 
+/* line 174, style.scss */
 .icon_grid:before {
-  content: "\e605";
-}
-
-
+  content: "\e605"; }
 
 /* ******************************************
 	Typography
-****************************************** */ 
+****************************************** */
+/* line 183, style.scss */
 html {
   font-size: 100%;
   line-height: 1;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-}
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
 
+/* line 192, style.scss */
 p, li {
   font-family: "athelas", Georgia, serif;
   color: #3d343f;
   font-size: 1.25em;
   line-height: 1.44;
-  font-style: normal;
-}
+  font-style: normal; }
 
+/* line 200, style.scss */
 h1 {
   font-family: "league-gothic", sans-serif;
   font-weight: normal;
@@ -212,110 +201,97 @@ h1 {
   line-height: 1;
   color: #3d343f;
   text-transform: uppercase;
-  text-align: center;
-}
+  text-align: center; }
 
+/* line 210, style.scss */
 h3 {
   font-size: 2.25em;
   color: #54be8e;
   font-family: "league-gothic", sans-serif;
   font-weight: 400;
   line-height: 1.44;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
+/* line 219, style.scss */
 .strapline {
-	font-size: 1.1875em;
-	font-weight: 700;
-	font-style: italic;
-	text-align: center;
-}
+  font-size: 1.1875em;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center; }
 
+/* line 226, style.scss */
 #nav li {
   font-family: "league-gothic", sans-serif;
   font-size: 1.5em;
   line-height: 1;
   text-transform: uppercase;
   color: #54be8e;
-  font-weight: 400;
-}
+  font-weight: 400; }
 
+/* line 235, style.scss */
 a:link, a:visited {
   -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: opacity 0.3s ease;
-  transition: all 0.3s ease;
-}
+          transition: all 0.3s ease; }
 
+/* line 239, style.scss */
 #nav a:link, #nav a:visited {
   color: #54be8e;
   text-decoration: none;
-  opacity: 1;
-}
+  opacity: 1; }
 
+/* line 245, style.scss */
 #nav a:hover, #nav a:active, #nav a:focus {
   opacity: .5;
   -webkit-transition: opacity 0.3s ease;
-  -moz-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
-  -ms-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
-}
+          transition: opacity 0.3s ease; }
 
+/* line 250, style.scss */
 #skills li {
-  list-style-position: inside;
-}
+  list-style-position: inside; }
 
-#contact a:link, 
+/* line 254, style.scss */
+#contact a:link,
 #contact a:visited {
   color: #54be8e;
   text-decoration: none;
   border-bottom: 1px dotted #54be8e;
   -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
+          transition: all 0.3s ease; }
 
-.work-item-text a:link, 
+/* line 262, style.scss */
+.work-item-text a:link,
 .work-item-text a:visited {
   color: #3d343f;
   text-decoration: none;
   border-bottom: 1px solid #b7b7b7;
   -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
+          transition: all 0.3s ease; }
 
-
-#contact a:hover, 
+/* line 271, style.scss */
+#contact a:hover,
 #contact a:active,
-.work-item-text a:hover, 
+.work-item-text a:hover,
 .work-item-text a:active {
   color: #fff;
   background-color: #54be8e;
   text-decoration: none;
-  border-bottom: none;
-}
+  border-bottom: none; }
 
+/* line 281, style.scss */
 #container-footer p {
   color: #fff;
-	font-family: "athelas", Georgia, serif;
-	font-size: 0.875em;
-	line-height: 1.44;
-	font-style: normal;
-	text-align: center;
-}
+  font-family: "athelas", Georgia, serif;
+  font-size: 0.875em;
+  line-height: 1.44;
+  font-style: normal;
+  text-align: center; }
 
+/* line 290, style.scss */
 .work-item-text {
   max-width: 90%;
-  margin: 3em auto;
-}
+  margin: 3em auto; }
 
+/* line 295, style.scss */
 .work-item-text h2 {
   font-family: "league-gothic", sans-serif;
   font-weight: normal;
@@ -323,9 +299,9 @@ a:link, a:visited {
   line-height: 1.05em;
   color: #3d343f;
   text-transform: none;
-  text-align: center;
-}
+  text-align: center; }
 
+/* line 305, style.scss */
 .work-item-text h4 {
   font-family: "athelas", Georgia, serif;
   font-weight: 700;
@@ -335,9 +311,9 @@ a:link, a:visited {
   color: #54be8e;
   text-align: center;
   padding-top: .3em;
-  padding-bottom: .8em;
-}
+  padding-bottom: .8em; }
 
+/* line 317, style.scss */
 .work-item-text p {
   font-family: "athelas", Georgia, serif;
   font-size: 1.25em;
@@ -346,467 +322,436 @@ a:link, a:visited {
   color: #3d343f;
   text-align: center;
   padding-top: .8em;
-  border-top: 1px solid #ccc;
-}
+  border-top: 1px solid #ccc; }
 
+/* line 328, style.scss */
 ::-moz-selection {
   background: #54be8e;
-  color: #fff;
-}
+  color: #fff; }
 
+/* line 333, style.scss */
+::-moz-selection {
+  background: #54be8e;
+  color: #fff; }
 ::selection {
   background: #54be8e;
-  color: #fff;
-}
+  color: #fff; }
 
 /* ******************************************
 Navigation Styles
 ****************************************** */
+/* line 341, style.scss */
 #nav ul {
   text-align: center;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
+/* line 346, style.scss */
 #nav li {
   list-style: none;
-  list-style-type:none;
+  list-style-type: none;
   display: inline-block;
   padding: 0 .4em;
   margin: 0;
   border-right: 1px solid #d3d3d3;
-  text-align: left;
-}
+  text-align: left; }
 
+/* line 356, style.scss */
 #nav li:first-child {
-	padding-left: 0;
-}
+  padding-left: 0; }
 
+/* line 360, style.scss */
 #nav .last-child {
-	border: none;
-  padding-right: 0;
-}
+  border: none;
+  padding-right: 0; }
 
+/* line 365, style.scss */
 .nav-a {
   margin: 0;
-  padding: 0;
-}
-
+  padding: 0; }
 
 /* ******************************************
 Layout Styles
 ****************************************** */
-
 /* apply a natural box layout model to all elements */
+/* line 376, style.scss */
 *, *:before, *:after {
-  -moz-box-sizing: border-box; 
-  -webkit-box-sizing: border-box; 
-  box-sizing: border-box;
-}
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; }
 
+/* line 380, style.scss */
 body {
   border-top: 5px solid #54be8e;
-  background-color: #fff;
-}
+  background-color: #fff; }
 
+/* line 385, style.scss */
 h1 {
   display: inline-block;
-	padding: .04em 0 0 0;
-	border-top: 1px solid #3d343f;
-	border-bottom: 1px solid #3d343f;
-  margin: 0 auto;
-}
+  padding: .04em 0 0 0;
+  border-top: 1px solid #3d343f;
+  border-bottom: 1px solid #3d343f;
+  margin: 0 auto; }
 
+/* line 393, style.scss */
 .strapline {
-  padding-bottom: .06em;
-}
+  padding-bottom: .06em; }
 
+/* line 397, style.scss */
 img {
-	max-width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
-  
   /* CSS Tricks IE Hack */
   border: 0;
-  -ms-interpolation-mode: bicubic;
-}
+  -ms-interpolation-mode: bicubic; }
 
+/* line 407, style.scss */
 .fig {
-  margin-bottom: 0em;
-  }
+  margin-bottom: 0em; }
 
+/* line 411, style.scss */
 #masthead {
-	padding: 1em 0 .65em 0;
-	margin: 0 auto;
-  text-align: center;
-}
+  padding: 1em 0 .65em 0;
+  margin: 0 auto;
+  text-align: center; }
 
+/* line 417, style.scss */
 #nav {
-  padding-bottom: 1.75em;
-}
+  padding-bottom: 1.75em; }
 
+/* line 421, style.scss */
 #about, #skills, #contact {
-	padding-top: 1.8em;
-	width: 90%;
-	margin: 0 auto;
-}
+  padding-top: 1.8em;
+  width: 90%;
+  margin: 0 auto; }
 
+/* line 427, style.scss */
 #contact {
-  padding-bottom: 3.6em;
-}
+  padding-bottom: 3.6em; }
 
+/* line 431, style.scss */
 #container-footer {
-	background: #3d343f;
-	margin: 0;
-	padding: 1em .5em;
-}
+  background: #3d343f;
+  margin: 0;
+  padding: 1em .5em; }
 
+/* line 437, style.scss */
 #colophon {
   text-align: center;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
+/* line 442, style.scss */
 .fig {
   background-color: #d7d7d7;
   opacity: 1;
   -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
+          transition: all 0.4s ease; }
 
+/* line 448, style.scss */
 .fig:hover {
   opacity: .8;
   -webkit-transition: all .9s ease;
-  -moz-transition: all .9s ease;
-  transition: all .9s ease;
-}
-
+          transition: all .9s ease; }
 
 /* ******************************************
 Projects Layout Styles
 ****************************************** */
-
-
+/* line 459, style.scss */
 #container-content img {
-  width: 100%;
-}
+  width: 100%; }
 
+/* line 463, style.scss */
 .work-item article {
-  padding-bottom: 0;
-}
+  padding-bottom: 0; }
 
+/* line 467, style.scss */
 .topimg {
   padding-top: 1.25em;
   padding-bottom: 1.25em;
   padding-left: 8%;
   padding-right: 8%;
   display: block;
-  text-align: center;
-}
+  text-align: center; }
 
+/* line 476, style.scss */
 .wood {
   background-color: #d1d1d1;
   background-image: url(../img/woodbg.jpg);
-  -webkit-background-size: cover;
-  background-size: cover;
-}
+  -webkit-background-size: cover cover;
+          background-size: cover; }
 
+/* line 482, style.scss */
 .dtw-top {
   background-color: #d1d1d1;
   background-image: url(../img/wood2.jpg);
-  -webkit-background-size: cover;
-  background-size: cover;
-}
+  -webkit-background-size: cover cover;
+          background-size: cover; }
 
+/* line 488, style.scss */
 .wall {
   background-color: #d1d1d1;
-  background-image: url(../img/wallbg.jpg);
-}
+  background-image: url(../img/wallbg.jpg); }
 
+/* line 493, style.scss */
 .annualreport-top img, .recruitment-top img, .coc-rebranding-top img {
   width: 85%;
   max-width: 37em;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
+/* line 499, style.scss */
 .bleed-top {
-  background-color: #315563;
-}
+  background-color: #315563; }
 
+/* line 503, style.scss */
 .bleed-top img {
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
+/* line 507, style.scss */
 .cocweb-top {
-  background-color: #d7d7d7;
-}
+  background-color: #d7d7d7; }
 
-.cocweb-top img{
-  margin: 0 auto;
-}
+/* line 511, style.scss */
+.cocweb-top img {
+  margin: 0 auto; }
 
+/* line 515, style.scss */
 .work-item-area {
   padding: 5% 5% 0 5%;
   margin-bottom: 0;
-  background-color: #d7d7d7;
-}
+  background-color: #d7d7d7; }
 
+/* line 521, style.scss */
 .work-item-area figure {
-  padding-bottom: 5%;
-}
+  padding-bottom: 5%; }
 
+/* line 525, style.scss */
 .work-item-area img {
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
+/* line 529, style.scss */
 .surface {
-  background-image: url(../img/surface.jpg);
-}
+  background-image: url(../img/surface.jpg); }
 
+/* line 533, style.scss */
 .shadow img {
-  -webkit-box-shadow: 2px 3px 5px 1px rgba(0,0,0,.7);
-  box-shadow: 2px 3px 5px 1px rgba(0,0,0,.7);
-}
+  -webkit-box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.7);
+          box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.7); }
 
+/* line 537, style.scss */
 .fixed {
   max-width: 80em;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
+/* line 542, style.scss */
 .row {
-  padding-bottom: 5%;
-}
+  padding-bottom: 5%; }
 
+/* line 546, style.scss */
 .work-nav {
   text-align: center;
   padding-top: 1em;
-  padding-bottom: .75em;
-}
+  padding-bottom: .75em; }
 
+/* line 552, style.scss */
 .work-nav li {
-  display: inline-block;
-}
+  display: inline-block; }
 
+/* line 556, style.scss */
 .work-nav li {
-  padding: 0 .4em;
-}
+  padding: 0 .4em; }
 
-.work-nav a:link, .work-nav a:visited{
-  text-decoration: none;
-}
+/* line 560, style.scss */
+.work-nav a:link, .work-nav a:visited {
+  text-decoration: none; }
 
+/* line 564, style.scss */
 .work-nav a:hover, .work-nav a:active {
   opacity: .6;
   -webkit-transition: opacity 0.3s ease;
-  -moz-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
-  -ms-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
-}
+          transition: opacity 0.3s ease; }
 
+/* line 569, style.scss */
 .gallery {
-  background: #d7d7d7;
-}
-
-
-
+  background: #d7d7d7; }
 
 /* ******************************************
   Media Queries for screen wider than 500px
 ****************************************** */
-@media screen and (min-width: 31.25em){
+@media screen and (min-width: 31.25em) {
+  /* line 580, style.scss */
   body {
-    font-size: 110%;
-  }
+    font-size: 110%; }
 
+  /* line 584, style.scss */
   #container-header {
-    font-size: 120%;
-  }
+    font-size: 120%; }
 
+  /* line 588, style.scss */
   #work figure {
     float: left;
-    width: 50%;
-  }
+    width: 50%; }
 
+  /* line 593, style.scss */
   #colophon p {
     display: inline-block;
     text-align: center;
-    margin: 0 auto;
-  }
+    margin: 0 auto; }
 
+  /* line 599, style.scss */
   .work-item-text {
-    max-width: 85%;
-  }
-}
-
+    max-width: 85%; } }
 /* ******************************************
   Media Queries for screen wider than 900px
 ****************************************** */
-@media screen and (min-width: 56.25em){
+@media screen and (min-width: 56.25em) {
+  /* line 608, style.scss */
   #container-header, #container-content {
-    margin: 0 auto;
-  }
+    margin: 0 auto; }
 
+  /* line 612, style.scss */
   body {
-    font-size: 125%;
-  }
+    font-size: 125%; }
 
+  /* line 616, style.scss */
   #container-header {
-    font-size: 120%;
-  } 
+    font-size: 120%; }
 
+  /* line 620, style.scss */
   h1 {
     border-top: 2px solid #3d343f;
-    border-bottom: 2px solid #3d343f;
-  }
+    border-bottom: 2px solid #3d343f; }
 
+  /* line 625, style.scss */
   #work figure {
     float: left;
-    width: 33.333333333333333%;
-  }
+    width: 33.333333333333333%; }
 
+  /* line 630, style.scss */
   #about {
     float: left;
     width: 50%;
     border-right: 1px dotted #d4d4d4;
     padding-top: 2.7em;
-    padding-bottom: 3.6em;
-  }
+    padding-bottom: 3.6em; }
 
+  /* line 638, style.scss */
   #skills {
-    padding-top: 2.7em;
-  }
+    padding-top: 2.7em; }
 
+  /* line 642, style.scss */
   #skills, #contact {
     float: right;
-    width: 50%;
-  }
+    width: 50%; }
 
+  /* line 647, style.scss */
   #contact {
     padding-bottom: 3.6em;
-    padding-top: 2.135em;
-  }
+    padding-top: 2.135em; }
 
+  /* line 652, style.scss */
   .wrapper {
-    padding: 0 1.8em;
-  }
+    padding: 0 1.8em; }
 
+  /* line 656, style.scss */
   .work-item-text {
     width: 70%;
     max-width: 48em;
-    margin: 4em auto;
-  }
+    margin: 4em auto; }
 
+  /* line 662, style.scss */
   .annualreport-top img {
-    width: 60%;
-  }
+    width: 60%; }
 
+  /* line 666, style.scss */
   .coc-rebranding-top img {
-    width: 60%;
-  }
+    width: 60%; }
 
+  /* line 670, style.scss */
   .recruitment-top img {
-    width: 65%;
-  }
+    width: 65%; }
 
+  /* line 674, style.scss */
   .half {
     float: left;
     width: 50%;
     padding-left: 2%;
     padding-right: 2%;
-    text-align: center;
-  }
+    text-align: center; }
 
+  /* line 682, style.scss */
   .full {
     float: left;
     width: 100%;
     padding-left: 2%;
     padding-right: 2%;
-    text-align: center;
-  }
+    text-align: center; }
 
+  /* line 690, style.scss */
   .quarter {
     display: inline-block;
-    width: 46%;
-  }
+    width: 46%; }
 
+  /* line 695, style.scss */
   #colophon p {
-    font-size: 80%;
-  }
-
-}
-
-
+    font-size: 80%; } }
 /* ******************************************
   Media Queries for screen wider than 1400px
 ****************************************** */
-@media screen and (min-width: 87.5em){
-
+@media screen and (min-width: 87.5em) {
+  /* line 707, style.scss */
   body {
-    font-size: 150%;
-  }
+    font-size: 150%; }
 
+  /* line 711, style.scss */
   .annualreport-top img {
     width: 50%;
-    max-width: 37em;
-  }
+    max-width: 37em; }
 
+  /* line 716, style.scss */
   .wrapper {
-    padding: 0 2.7em;
-  }
+    padding: 0 2.7em; }
 
+  /* line 720, style.scss */
   .work-item-annualreport {
-    padding: 5% 8% 0 8%;
-  }
+    padding: 5% 8% 0 8%; }
 
+  /* line 724, style.scss */
   .gallery {
     width: 100%;
     max-width: 69em;
-    margin: 0 auto;
-  }
-}
-
-
+    margin: 0 auto; } }
 /* ******************************************
   Media Queries for screen wider than 1800px
 ****************************************** */
-@media screen and (min-width: 112.5em){
+@media screen and (min-width: 112.5em) {
+  /* line 736, style.scss */
   .info {
     margin: 0 auto;
     max-width: 90em;
-    font-size: 115%;
-  }
+    font-size: 115%; }
 
+  /* line 742, style.scss */
   .wrapper {
-    padding: 0 3.15em;
-  }
-
-}
-
-
+    padding: 0 3.15em; } }
 /* ***********************************************************
 Float Clearing http://nicolasgallagher.com/micro-clearfix-hack
 *********************************************************** */
-
+/* line 753, style.scss */
 .group:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
-  clear: both;
-}
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+  clear: both; }
 
 /* Clearfix */
-
+/* line 761, style.scss */
 .group {
-  *zoom: 1;
-}
-
+  *zoom: 1; }
 
 /* ******************************************
 box-sizing polyfill, IE7 and below 
 ****************************************** */
-
+/* line 770, style.scss */
 .wrapper {
-  *behavior: url("http://favorablemagnetism.com/js/boxsizing.htc");
-}
-
+  *behavior: url("http://favorablemagnetism.com/js/boxsizing.htc"); }
