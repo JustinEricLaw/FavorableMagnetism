@@ -1,0 +1,81 @@
+/* ******************************************
+Layout
+****************************************** */
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  border-top: 5px solid #54be8e;
+  background-color: #fff;
+}
+
+h1 {
+  display: inline-block;
+	padding: .04em 0 0 0;
+	border-top: 1px solid #3d343f;
+	border-bottom: 1px solid #3d343f;
+  margin: 0 auto;
+}
+
+.strapline {
+  padding-bottom: .06em;
+}
+
+img {
+	max-width: 100%;
+  height: auto;
+  display: block;
+  
+  /* CSS Tricks IE Hack */
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+.fig {
+  margin-bottom: 0em;
+  }
+
+#masthead {
+	padding: 1em 0 .65em 0;
+	margin: 0 auto;
+  text-align: center;
+}
+
+#nav {
+  padding-bottom: 1.75em;
+}
+
+#about, #skills, #contact {
+	padding-top: 1.8em;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#contact {
+  padding-bottom: 3.6em;
+}
+
+#container-footer {
+	background: #3d343f;
+	margin: 0;
+	padding: 1em .5em;
+}
+
+#colophon {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.fig {
+  background-color: #d7d7d7;
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+
+.fig:hover {
+  opacity: .8;
+  transition: all .9s ease;
+}

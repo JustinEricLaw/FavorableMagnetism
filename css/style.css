@@ -438,15 +438,15 @@ section {
   border: 0; }
 
 /* ******************************************
-	Web Fonts
+Icon Web Font
 ****************************************** */
 @font-face {
   font-family: 'jlaw-icons';
-  src: url("../fonts/jlaw-icons.eot?-tuycs4");
-  src: url("../fonts/jlaw-icons.eot?#iefix-tuycs4") format("embedded-opentype"), url("../fonts/jlaw-icons.woff?-tuycs4") format("woff"), url("../fonts/jlaw-icons.ttf?-tuycs4") format("truetype"), url("../fonts/jlaw-icons.svg?-tuycs4#jlaw-icons") format("svg");
+  src: url("../../fonts/jlaw-icons.eot?-tuycs4");
+  src: url("../../fonts/jlaw-icons.eot?#iefix-tuycs4") format("embedded-opentype"), url("../../fonts/jlaw-icons.woff?-tuycs4") format("woff"), url("../../fonts/jlaw-icons.ttf?-tuycs4") format("truetype"), url("../../fonts/jlaw-icons.svg?-tuycs4#jlaw-icons") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* line 23, style.scss */
+/* line 16, base/_icons.scss */
 [class^="icon"], [class*="icon"] {
   font-family: 'jlaw-icons';
   speak: none;
@@ -457,26 +457,26 @@ section {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  /* Better Font Rendering =========== */
+  /* Better Font Rendering */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 39, style.scss */
+/* line 32, base/_icons.scss */
 .icon_previous:before {
   content: "\e601"; }
 
-/* line 42, style.scss */
+/* line 35, base/_icons.scss */
 .icon_next:before {
   content: "\e602"; }
 
-/* line 45, style.scss */
+/* line 38, base/_icons.scss */
 .icon_grid:before {
   content: "\e605"; }
 
 /* ******************************************
 	Typography
 ****************************************** */
-/* line 54, style.scss */
+/* line 4, base/_typography.scss */
 html {
   font-size: 100%;
   line-height: 1;
@@ -487,7 +487,7 @@ html {
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
-/* line 63, style.scss */
+/* line 13, base/_typography.scss */
 p, li {
   font-family: "athelas", Georgia, serif;
   color: #3d343f;
@@ -495,7 +495,7 @@ p, li {
   line-height: 1.44;
   font-style: normal; }
 
-/* line 71, style.scss */
+/* line 21, base/_typography.scss */
 h1 {
   font-family: "league-gothic", sans-serif;
   font-weight: normal;
@@ -505,7 +505,7 @@ h1 {
   text-transform: uppercase;
   text-align: center; }
 
-/* line 81, style.scss */
+/* line 31, base/_typography.scss */
 h3 {
   font-size: 2.25em;
   color: #54be8e;
@@ -514,14 +514,14 @@ h3 {
   line-height: 1.44;
   text-transform: uppercase; }
 
-/* line 90, style.scss */
+/* line 40, base/_typography.scss */
 .strapline {
   font-size: 1.1875em;
   font-weight: 700;
   font-style: italic;
   text-align: center; }
 
-/* line 97, style.scss */
+/* line 47, base/_typography.scss */
 #nav li {
   font-family: "league-gothic", sans-serif;
   font-size: 1.5em;
@@ -530,28 +530,28 @@ h3 {
   color: #54be8e;
   font-weight: 400; }
 
-/* line 106, style.scss */
+/* line 56, base/_typography.scss */
 a:link, a:visited {
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease; }
 
-/* line 110, style.scss */
+/* line 60, base/_typography.scss */
 #nav a:link, #nav a:visited {
   color: #54be8e;
   text-decoration: none;
   opacity: 1; }
 
-/* line 116, style.scss */
+/* line 66, base/_typography.scss */
 #nav a:hover, #nav a:active, #nav a:focus {
   opacity: .5;
   -webkit-transition: opacity 0.3s ease;
           transition: opacity 0.3s ease; }
 
-/* line 121, style.scss */
+/* line 71, base/_typography.scss */
 #skills li {
   list-style-position: inside; }
 
-/* line 125, style.scss */
+/* line 75, base/_typography.scss */
 #contact a:link,
 #contact a:visited {
   color: #54be8e;
@@ -560,7 +560,7 @@ a:link, a:visited {
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease; }
 
-/* line 133, style.scss */
+/* line 83, base/_typography.scss */
 .work-item-text a:link,
 .work-item-text a:visited {
   color: #3d343f;
@@ -569,7 +569,7 @@ a:link, a:visited {
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease; }
 
-/* line 142, style.scss */
+/* line 91, base/_typography.scss */
 #contact a:hover,
 #contact a:active,
 .work-item-text a:hover,
@@ -579,7 +579,7 @@ a:link, a:visited {
   text-decoration: none;
   border-bottom: none; }
 
-/* line 152, style.scss */
+/* line 101, base/_typography.scss */
 #container-footer p {
   color: #fff;
   font-family: "athelas", Georgia, serif;
@@ -588,12 +588,12 @@ a:link, a:visited {
   font-style: normal;
   text-align: center; }
 
-/* line 161, style.scss */
+/* line 110, base/_typography.scss */
 .work-item-text {
   max-width: 90%;
   margin: 3em auto; }
 
-/* line 166, style.scss */
+/* line 115, base/_typography.scss */
 .work-item-text h2 {
   font-family: "league-gothic", sans-serif;
   font-weight: normal;
@@ -603,7 +603,7 @@ a:link, a:visited {
   text-transform: none;
   text-align: center; }
 
-/* line 176, style.scss */
+/* line 125, base/_typography.scss */
 .work-item-text h4 {
   font-family: "athelas", Georgia, serif;
   font-weight: 700;
@@ -615,7 +615,7 @@ a:link, a:visited {
   padding-top: .3em;
   padding-bottom: .8em; }
 
-/* line 188, style.scss */
+/* line 137, base/_typography.scss */
 .work-item-text p {
   font-family: "athelas", Georgia, serif;
   font-size: 1.25em;
@@ -626,12 +626,12 @@ a:link, a:visited {
   padding-top: .8em;
   border-top: 1px solid #ccc; }
 
-/* line 199, style.scss */
+/* line 148, base/_typography.scss */
 ::-moz-selection {
   background: #54be8e;
   color: #fff; }
 
-/* line 204, style.scss */
+/* line 153, base/_typography.scss */
 ::-moz-selection {
   background: #54be8e;
   color: #fff; }
@@ -639,15 +639,38 @@ a:link, a:visited {
   background: #54be8e;
   color: #fff; }
 
+/* ***********************************************************
+Float Clearing http://nicolasgallagher.com/micro-clearfix-hack
+*********************************************************** */
+/* line 4, base/_globals.scss */
+.group:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+  clear: both; }
+
+/* Clearfix */
+/* line 11, base/_globals.scss */
+.group {
+  *zoom: 1; }
+
 /* ******************************************
-Navigation Styles
+box-sizing polyfill, IE7 and below 
 ****************************************** */
-/* line 212, style.scss */
+/* line 19, base/_globals.scss */
+.wrapper {
+  *behavior: url("http://favorablemagnetism.com/js/boxsizing.htc"); }
+
+/* ******************************************
+Navbar
+****************************************** */
+/* line 4, layout/_nav.scss */
 #nav ul {
   text-align: center;
   margin: 0 auto; }
 
-/* line 217, style.scss */
+/* line 9, layout/_nav.scss */
 #nav li {
   list-style: none;
   list-style-type: none;
@@ -657,36 +680,36 @@ Navigation Styles
   border-right: 1px solid #d3d3d3;
   text-align: left; }
 
-/* line 227, style.scss */
+/* line 19, layout/_nav.scss */
 #nav li:first-child {
   padding-left: 0; }
 
-/* line 231, style.scss */
+/* line 23, layout/_nav.scss */
 #nav .last-child {
   border: none;
   padding-right: 0; }
 
-/* line 236, style.scss */
+/* line 28, layout/_nav.scss */
 .nav-a {
   margin: 0;
   padding: 0; }
 
 /* ******************************************
-Layout Styles
+Layout
 ****************************************** */
 /* apply a natural box layout model to all elements */
-/* line 247, style.scss */
+/* line 6, layout/_areas.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box; }
 
-/* line 251, style.scss */
+/* line 10, layout/_areas.scss */
 body {
   border-top: 5px solid #54be8e;
   background-color: #fff; }
 
-/* line 256, style.scss */
+/* line 15, layout/_areas.scss */
 h1 {
   display: inline-block;
   padding: .04em 0 0 0;
@@ -694,11 +717,11 @@ h1 {
   border-bottom: 1px solid #3d343f;
   margin: 0 auto; }
 
-/* line 264, style.scss */
+/* line 23, layout/_areas.scss */
 .strapline {
   padding-bottom: .06em; }
 
-/* line 268, style.scss */
+/* line 27, layout/_areas.scss */
 img {
   max-width: 100%;
   height: auto;
@@ -707,49 +730,49 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic; }
 
-/* line 278, style.scss */
+/* line 37, layout/_areas.scss */
 .fig {
   margin-bottom: 0em; }
 
-/* line 282, style.scss */
+/* line 41, layout/_areas.scss */
 #masthead {
   padding: 1em 0 .65em 0;
   margin: 0 auto;
   text-align: center; }
 
-/* line 288, style.scss */
+/* line 47, layout/_areas.scss */
 #nav {
   padding-bottom: 1.75em; }
 
-/* line 292, style.scss */
+/* line 51, layout/_areas.scss */
 #about, #skills, #contact {
   padding-top: 1.8em;
   width: 90%;
   margin: 0 auto; }
 
-/* line 298, style.scss */
+/* line 57, layout/_areas.scss */
 #contact {
   padding-bottom: 3.6em; }
 
-/* line 302, style.scss */
+/* line 61, layout/_areas.scss */
 #container-footer {
   background: #3d343f;
   margin: 0;
   padding: 1em .5em; }
 
-/* line 308, style.scss */
+/* line 67, layout/_areas.scss */
 #colophon {
   text-align: center;
   margin: 0 auto; }
 
-/* line 313, style.scss */
+/* line 72, layout/_areas.scss */
 .fig {
   background-color: #d7d7d7;
   opacity: 1;
   -webkit-transition: all 0.4s ease;
           transition: all 0.4s ease; }
 
-/* line 319, style.scss */
+/* line 78, layout/_areas.scss */
 .fig:hover {
   opacity: .8;
   -webkit-transition: all .9s ease;
@@ -758,15 +781,15 @@ img {
 /* ******************************************
 Projects Layout Styles
 ****************************************** */
-/* line 330, style.scss */
+/* line 6, layout/_projects.scss */
 #container-content img {
   width: 100%; }
 
-/* line 334, style.scss */
+/* line 10, layout/_projects.scss */
 .work-item article {
   padding-bottom: 0; }
 
-/* line 338, style.scss */
+/* line 14, layout/_projects.scss */
 .topimg {
   padding-top: 1.25em;
   padding-bottom: 1.25em;
@@ -775,104 +798,104 @@ Projects Layout Styles
   display: block;
   text-align: center; }
 
-/* line 347, style.scss */
+/* line 23, layout/_projects.scss */
 .wood {
   background-color: #d1d1d1;
   background-image: url(../img/woodbg.jpg);
   -webkit-background-size: cover cover;
           background-size: cover; }
 
-/* line 353, style.scss */
+/* line 29, layout/_projects.scss */
 .dtw-top {
   background-color: #d1d1d1;
   background-image: url(../img/wood2.jpg);
   -webkit-background-size: cover cover;
           background-size: cover; }
 
-/* line 359, style.scss */
+/* line 35, layout/_projects.scss */
 .wall {
   background-color: #d1d1d1;
   background-image: url(../img/wallbg.jpg); }
 
-/* line 364, style.scss */
+/* line 40, layout/_projects.scss */
 .annualreport-top img, .recruitment-top img, .coc-rebranding-top img {
   width: 85%;
   max-width: 37em;
   margin: 0 auto; }
 
-/* line 370, style.scss */
+/* line 46, layout/_projects.scss */
 .bleed-top {
   background-color: #315563; }
 
-/* line 374, style.scss */
+/* line 50, layout/_projects.scss */
 .bleed-top img {
   margin: 0 auto; }
 
-/* line 378, style.scss */
+/* line 54, layout/_projects.scss */
 .cocweb-top {
   background-color: #d7d7d7; }
 
-/* line 382, style.scss */
+/* line 58, layout/_projects.scss */
 .cocweb-top img {
   margin: 0 auto; }
 
-/* line 386, style.scss */
+/* line 62, layout/_projects.scss */
 .work-item-area {
   padding: 5% 5% 0 5%;
   margin-bottom: 0;
   background-color: #d7d7d7; }
 
-/* line 392, style.scss */
+/* line 68, layout/_projects.scss */
 .work-item-area figure {
   padding-bottom: 5%; }
 
-/* line 396, style.scss */
+/* line 72, layout/_projects.scss */
 .work-item-area img {
   margin: 0 auto; }
 
-/* line 400, style.scss */
+/* line 76, layout/_projects.scss */
 .surface {
   background-image: url(../img/surface.jpg); }
 
-/* line 404, style.scss */
+/* line 80, layout/_projects.scss */
 .shadow img {
   -webkit-box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.7);
           box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.7); }
 
-/* line 408, style.scss */
+/* line 84, layout/_projects.scss */
 .fixed {
   max-width: 80em;
   margin: 0 auto; }
 
-/* line 413, style.scss */
+/* line 89, layout/_projects.scss */
 .row {
   padding-bottom: 5%; }
 
-/* line 417, style.scss */
+/* line 93, layout/_projects.scss */
 .work-nav {
   text-align: center;
   padding-top: 1em;
   padding-bottom: .75em; }
 
-/* line 423, style.scss */
+/* line 99, layout/_projects.scss */
 .work-nav li {
   display: inline-block; }
 
-/* line 427, style.scss */
+/* line 103, layout/_projects.scss */
 .work-nav li {
   padding: 0 .4em; }
 
-/* line 431, style.scss */
+/* line 107, layout/_projects.scss */
 .work-nav a:link, .work-nav a:visited {
   text-decoration: none; }
 
-/* line 435, style.scss */
+/* line 111, layout/_projects.scss */
 .work-nav a:hover, .work-nav a:active {
   opacity: .6;
   -webkit-transition: opacity 0.3s ease;
           transition: opacity 0.3s ease; }
 
-/* line 440, style.scss */
+/* line 116, layout/_projects.scss */
 .gallery {
   background: #d7d7d7; }
 
@@ -880,55 +903,55 @@ Projects Layout Styles
   Media Queries for screen wider than 500px
 ****************************************** */
 @media screen and (min-width: 31.25em) {
-  /* line 451, style.scss */
+  /* line 24, style.scss */
   body {
     font-size: 110%; }
 
-  /* line 455, style.scss */
+  /* line 28, style.scss */
   #container-header {
     font-size: 120%; }
 
-  /* line 459, style.scss */
+  /* line 32, style.scss */
   #work figure {
     float: left;
     width: 50%; }
 
-  /* line 464, style.scss */
+  /* line 37, style.scss */
   #colophon p {
     display: inline-block;
     text-align: center;
     margin: 0 auto; }
 
-  /* line 470, style.scss */
+  /* line 43, style.scss */
   .work-item-text {
     max-width: 85%; } }
 /* ******************************************
   Media Queries for screen wider than 900px
 ****************************************** */
 @media screen and (min-width: 56.25em) {
-  /* line 479, style.scss */
+  /* line 52, style.scss */
   #container-header, #container-content {
     margin: 0 auto; }
 
-  /* line 483, style.scss */
+  /* line 56, style.scss */
   body {
     font-size: 125%; }
 
-  /* line 487, style.scss */
+  /* line 60, style.scss */
   #container-header {
     font-size: 120%; }
 
-  /* line 491, style.scss */
+  /* line 64, style.scss */
   h1 {
     border-top: 2px solid #3d343f;
     border-bottom: 2px solid #3d343f; }
 
-  /* line 496, style.scss */
+  /* line 69, style.scss */
   #work figure {
     float: left;
     width: 33.333333333333333%; }
 
-  /* line 501, style.scss */
+  /* line 74, style.scss */
   #about {
     float: left;
     width: 50%;
@@ -936,43 +959,43 @@ Projects Layout Styles
     padding-top: 2.7em;
     padding-bottom: 3.6em; }
 
-  /* line 509, style.scss */
+  /* line 82, style.scss */
   #skills {
     padding-top: 2.7em; }
 
-  /* line 513, style.scss */
+  /* line 86, style.scss */
   #skills, #contact {
     float: right;
     width: 50%; }
 
-  /* line 518, style.scss */
+  /* line 91, style.scss */
   #contact {
     padding-bottom: 3.6em;
     padding-top: 2.135em; }
 
-  /* line 523, style.scss */
+  /* line 96, style.scss */
   .wrapper {
     padding: 0 1.8em; }
 
-  /* line 527, style.scss */
+  /* line 100, style.scss */
   .work-item-text {
     width: 70%;
     max-width: 48em;
     margin: 4em auto; }
 
-  /* line 533, style.scss */
+  /* line 106, style.scss */
   .annualreport-top img {
     width: 60%; }
 
-  /* line 537, style.scss */
+  /* line 110, style.scss */
   .coc-rebranding-top img {
     width: 60%; }
 
-  /* line 541, style.scss */
+  /* line 114, style.scss */
   .recruitment-top img {
     width: 65%; }
 
-  /* line 545, style.scss */
+  /* line 118, style.scss */
   .half {
     float: left;
     width: 50%;
@@ -980,7 +1003,7 @@ Projects Layout Styles
     padding-right: 2%;
     text-align: center; }
 
-  /* line 553, style.scss */
+  /* line 126, style.scss */
   .full {
     float: left;
     width: 100%;
@@ -988,36 +1011,36 @@ Projects Layout Styles
     padding-right: 2%;
     text-align: center; }
 
-  /* line 561, style.scss */
+  /* line 134, style.scss */
   .quarter {
     display: inline-block;
     width: 46%; }
 
-  /* line 566, style.scss */
+  /* line 139, style.scss */
   #colophon p {
     font-size: 80%; } }
 /* ******************************************
   Media Queries for screen wider than 1400px
 ****************************************** */
 @media screen and (min-width: 87.5em) {
-  /* line 578, style.scss */
+  /* line 150, style.scss */
   body {
     font-size: 150%; }
 
-  /* line 582, style.scss */
+  /* line 154, style.scss */
   .annualreport-top img {
     width: 50%;
     max-width: 37em; }
 
-  /* line 587, style.scss */
+  /* line 159, style.scss */
   .wrapper {
     padding: 0 2.7em; }
 
-  /* line 591, style.scss */
+  /* line 163, style.scss */
   .work-item-annualreport {
     padding: 5% 8% 0 8%; }
 
-  /* line 595, style.scss */
+  /* line 167, style.scss */
   .gallery {
     width: 100%;
     max-width: 69em;
@@ -1026,34 +1049,12 @@ Projects Layout Styles
   Media Queries for screen wider than 1800px
 ****************************************** */
 @media screen and (min-width: 112.5em) {
-  /* line 607, style.scss */
+  /* line 179, style.scss */
   .info {
     margin: 0 auto;
     max-width: 90em;
     font-size: 115%; }
 
-  /* line 613, style.scss */
+  /* line 185, style.scss */
   .wrapper {
     padding: 0 3.15em; } }
-/* ***********************************************************
-Float Clearing http://nicolasgallagher.com/micro-clearfix-hack
-*********************************************************** */
-/* line 624, style.scss */
-.group:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-  clear: both; }
-
-/* Clearfix */
-/* line 632, style.scss */
-.group {
-  *zoom: 1; }
-
-/* ******************************************
-box-sizing polyfill, IE7 and below 
-****************************************** */
-/* line 641, style.scss */
-.wrapper {
-  *behavior: url("http://favorablemagnetism.com/js/boxsizing.htc"); }

@@ -1,0 +1,118 @@
+/* ******************************************
+Projects Layout Styles
+****************************************** */
+
+
+#container-content img {
+  width: 100%;
+}
+
+.work-item article {
+  padding-bottom: 0;
+}
+
+.topimg {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  padding-left: 8%;
+  padding-right: 8%;
+  display: block;
+  text-align: center;
+}
+
+.wood {
+  background-color: #d1d1d1;
+  background-image: url(../img/woodbg.jpg);
+  background-size: cover;
+}
+
+.dtw-top {
+  background-color: #d1d1d1;
+  background-image: url(../img/wood2.jpg);
+  background-size: cover;
+}
+
+.wall {
+  background-color: #d1d1d1;
+  background-image: url(../img/wallbg.jpg);
+}
+
+.annualreport-top img, .recruitment-top img, .coc-rebranding-top img {
+  width: 85%;
+  max-width: 37em;
+  margin: 0 auto;
+}
+
+.bleed-top {
+  background-color: #315563;
+}
+
+.bleed-top img {
+  margin: 0 auto;
+}
+
+.cocweb-top {
+  background-color: #d7d7d7;
+}
+
+.cocweb-top img{
+  margin: 0 auto;
+}
+
+.work-item-area {
+  padding: 5% 5% 0 5%;
+  margin-bottom: 0;
+  background-color: #d7d7d7;
+}
+
+.work-item-area figure {
+  padding-bottom: 5%;
+}
+
+.work-item-area img {
+  margin: 0 auto;
+}
+
+.surface {
+  background-image: url(../img/surface.jpg);
+}
+
+.shadow img {
+  box-shadow: 2px 3px 5px 1px rgba(0,0,0,.7);
+}
+
+.fixed {
+  max-width: 80em;
+  margin: 0 auto;
+}
+
+.row {
+  padding-bottom: 5%;
+}
+
+.work-nav {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: .75em;
+}
+
+.work-nav li {
+  display: inline-block;
+}
+
+.work-nav li {
+  padding: 0 .4em;
+}
+
+.work-nav a:link, .work-nav a:visited{
+  text-decoration: none;
+}
+
+.work-nav a:hover, .work-nav a:active {
+  opacity: .6;
+  transition: opacity 0.3s ease;
+}
+
+.gallery {
+  background: #d7d7d7;
+}

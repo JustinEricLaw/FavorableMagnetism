@@ -1,0 +1,156 @@
+/* ******************************************
+	Typography
+****************************************** */ 
+html {
+  font-size: 100%;
+  line-height: 1;
+  text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+p, li {
+  font-family: "athelas", Georgia, serif;
+  color: #3d343f;
+  font-size: 1.25em;
+  line-height: 1.44;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "league-gothic", sans-serif;
+  font-weight: normal;
+  font-size: 5.125em;
+  line-height: 1;
+  color: #3d343f;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.25em;
+  color: #54be8e;
+  font-family: "league-gothic", sans-serif;
+  font-weight: 400;
+  line-height: 1.44;
+  text-transform: uppercase;
+}
+
+.strapline {
+	font-size: 1.1875em;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+}
+
+#nav li {
+  font-family: "league-gothic", sans-serif;
+  font-size: 1.5em;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #54be8e;
+  font-weight: 400;
+}
+
+a:link, a:visited {
+  transition: all 0.3s ease;
+}
+
+#nav a:link, #nav a:visited {
+  color: #54be8e;
+  text-decoration: none;
+  opacity: 1;
+}
+
+#nav a:hover, #nav a:active, #nav a:focus {
+  opacity: .5;
+  transition: opacity 0.3s ease;
+}
+
+#skills li {
+  list-style-position: inside;
+}
+
+#contact a:link, 
+#contact a:visited {
+  color: #54be8e;
+  text-decoration: none;
+  border-bottom: 1px dotted #54be8e;
+  transition: all 0.3s ease;
+}
+
+.work-item-text a:link, 
+.work-item-text a:visited {
+  color: #3d343f;
+  text-decoration: none;
+  border-bottom: 1px solid #b7b7b7;
+  transition: all 0.3s ease;
+}
+
+#contact a:hover, 
+#contact a:active,
+.work-item-text a:hover, 
+.work-item-text a:active {
+  color: #fff;
+  background-color: #54be8e;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+#container-footer p {
+  color: #fff;
+	font-family: "athelas", Georgia, serif;
+	font-size: 0.875em;
+	line-height: 1.44;
+	font-style: normal;
+	text-align: center;
+}
+
+.work-item-text {
+  max-width: 90%;
+  margin: 3em auto;
+}
+
+.work-item-text h2 {
+  font-family: "league-gothic", sans-serif;
+  font-weight: normal;
+  font-size: 2.1em;
+  line-height: 1.05em;
+  color: #3d343f;
+  text-transform: none;
+  text-align: center;
+}
+
+.work-item-text h4 {
+  font-family: "athelas", Georgia, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.25em;
+  line-height: 1.1em;
+  color: #54be8e;
+  text-align: center;
+  padding-top: .3em;
+  padding-bottom: .8em;
+}
+
+.work-item-text p {
+  font-family: "athelas", Georgia, serif;
+  font-size: 1.25em;
+  font-weight: normal;
+  line-height: 1.44;
+  color: #3d343f;
+  text-align: center;
+  padding-top: .8em;
+  border-top: 1px solid #ccc;
+}
+
+::-moz-selection {
+  background: #54be8e;
+  color: #fff;
+}
+
+::selection {
+  background: #54be8e;
+  color: #fff;
+}
