@@ -1,12 +1,12 @@
 /* ******************************************
 Navbar
 ****************************************** */
-#nav ul {
+.nav ul {
   text-align: center;
   margin: 0 auto;
 }
 
-#nav li {
+.nav li {
   list-style: none;
   list-style-type:none;
   display: inline-block;
@@ -16,11 +16,11 @@ Navbar
   text-align: left;
 }
 
-#nav li:first-child {
+.nav li:first-child {
 	padding-left: 0;
 }
 
-#nav .last-child {
+.nav .last-child {
 	border: none;
   padding-right: 0;
 }

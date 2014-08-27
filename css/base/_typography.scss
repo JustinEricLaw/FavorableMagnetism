@@ -10,7 +10,8 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-p, li {
+p, 
+li {
   font-family: "athelas", Georgia, serif;
   color: #3d343f;
   font-size: 1.25em;
@@ -44,7 +45,7 @@ h3 {
 	text-align: center;
 }
 
-#nav li {
+.nav li {
   font-family: "league-gothic", sans-serif;
   font-size: 1.5em;
   line-height: 1;
@@ -53,27 +54,31 @@ h3 {
   font-weight: 400;
 }
 
-a:link, a:visited {
+a:link, 
+a:visited {
   transition: all 0.3s ease;
 }
 
-#nav a:link, #nav a:visited {
+.nav a:link, 
+.nav a:visited {
   color: #54be8e;
   text-decoration: none;
   opacity: 1;
 }
 
-#nav a:hover, #nav a:active, #nav a:focus {
+.nav a:hover, 
+.nav a:active, 
+.nav a:focus {
   opacity: .5;
   transition: opacity 0.3s ease;
 }
 
-#skills li {
+.skills li {
   list-style-position: inside;
 }
 
-#contact a:link, 
-#contact a:visited {
+.contact a:link, 
+.contact a:visited {
   color: #54be8e;
   text-decoration: none;
   border-bottom: 1px dotted #54be8e;
@@ -88,8 +93,8 @@ a:link, a:visited {
   transition: all 0.3s ease;
 }
 
-#contact a:hover, 
-#contact a:active,
+.contact a:hover, 
+.contact a:active,
 .work-item-text a:hover, 
 .work-item-text a:active {
   color: #fff;
@@ -98,7 +103,7 @@ a:link, a:visited {
   border-bottom: none;
 }
 
-#container-footer p {
+.container-footer p {
   color: #fff;
 	font-family: "athelas", Georgia, serif;
 	font-size: 0.875em;

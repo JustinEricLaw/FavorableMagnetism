@@ -15,8 +15,6 @@
 
 
 
-
-
 /* ******************************************
   Media Queries for screen wider than 500px
 ****************************************** */
@@ -25,16 +23,16 @@
     font-size: 110%;
   }
 
-  #container-header {
+  .container-header {
     font-size: 120%;
   }
 
-  #work figure {
+  .work figure {
     float: left;
     width: 50%;
   }
 
-  #colophon p {
+  .colophon p {
     display: inline-block;
     text-align: center;
     margin: 0 auto;
@@ -49,7 +47,8 @@
   Media Queries for screen wider than 900px
 ****************************************** */
 @media screen and (min-width: 56.25em){
-  #container-header, #container-content {
+  .container-header, 
+  .container-content {
     margin: 0 auto;
   }
 
@@ -57,7 +56,7 @@
     font-size: 125%;
   }
 
-  #container-header {
+  .container-header {
     font-size: 120%;
   } 
 
@@ -66,35 +65,31 @@
     border-bottom: 2px solid #3d343f;
   }
 
-  #work figure {
+  .work figure {
     float: left;
     width: 33.333333333333333%;
   }
 
-  #about {
+  .about {
     float: left;
     width: 50%;
     border-right: 1px dotted #d4d4d4;
-    padding-top: 2.7em;
+    padding: 2.7em 1.8em 3.6em 1.8em;
     padding-bottom: 3.6em;
   }
 
-  #skills {
-    padding-top: 2.7em;
+  .skills {
+    padding: 2.7em 1.8em 0 1.8em;
   }
 
-  #skills, #contact {
+  .skills, 
+  .contact {
     float: right;
     width: 50%;
   }
 
-  #contact {
-    padding-bottom: 3.6em;
-    padding-top: 2.135em;
-  }
-
-  .wrapper {
-    padding: 0 1.8em;
+  .contact {
+    padding: 2.135em 1.8em 3.6em 1.8em;
   }
 
   .work-item-text {
@@ -136,7 +131,7 @@
     width: 46%;
   }
 
-  #colophon p {
+  .colophon p {
     font-size: 80%;
   }
 }
@@ -156,8 +151,11 @@
     max-width: 37em;
   }
 
-  .wrapper {
-    padding: 0 2.7em;
+  .about,
+  .skills,
+  .contact {
+    padding-right: 2.7em;
+    padding-left: 2.7em;
   }
 
   .work-item-annualreport {
@@ -182,7 +180,10 @@
     font-size: 115%;
   }
 
-  .wrapper {
-    padding: 0 3.15em;
+  .about,
+  .skills,
+  .contact {
+    padding-right: 3.15em;
+    padding-left: 3.15em;
   }
 }

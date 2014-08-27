@@ -3,7 +3,7 @@ Projects Layout Styles
 ****************************************** */
 
 
-#container-content img {
+.container-content img {
   width: 100%;
 }
 
@@ -37,7 +37,9 @@ Projects Layout Styles
   background-image: url(../img/wallbg.jpg);
 }
 
-.annualreport-top img, .recruitment-top img, .coc-rebranding-top img {
+.annualreport-top img, 
+.recruitment-top img, 
+.coc-rebranding-top img {
   width: 85%;
   max-width: 37em;
   margin: 0 auto;
@@ -104,11 +106,13 @@ Projects Layout Styles
   padding: 0 .4em;
 }
 
-.work-nav a:link, .work-nav a:visited{
+.work-nav a:link, 
+.work-nav a:visited{
   text-decoration: none;
 }
 
-.work-nav a:hover, .work-nav a:active {
+.work-nav a:hover, 
+.work-nav a:active {
   opacity: .6;
   transition: opacity 0.3s ease;
 }
