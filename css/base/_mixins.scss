@@ -1,0 +1,22 @@
+// Media Query Variables
+$break-sm: 31.25em; // 500px
+$break-md: 56.25em; // 900px
+$break-lg: 87.5em; // 1400px
+$break-xlg: 112.5em; // 1800px
+
+
+// Media Query Mixins
+@mixin breakpoint($point) {
+  @if $point == sm {
+    @media screen and (min-width: $break-sm) { @content; }
+  }
+  @if $point == md {
+    @media screen and (min-width: $break-md) { @content; }
+  }
+  @if $point == lg {
+    @media screen and (min-width: $break-lg) { @content; }
+  }
+  @if $point == xlg {
+    @media screen and (min-width: $break-xlg) { @content; }
+  }
+}

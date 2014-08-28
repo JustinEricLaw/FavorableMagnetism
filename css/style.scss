@@ -1,4 +1,5 @@
 // Base
+@import "base/mixins";
 @import "base/normalize";
 @import "base/resets";
 @import "base/icons";
@@ -15,10 +16,10 @@
 
 
 
-/* ******************************************
-  Media Queries for screen wider than 500px
-****************************************** */
-@media screen and (min-width: 31.25em){
+/* *************************************************
+Media Queries for screen wider than 500px (31.25em)
+************************************************* */
+@include breakpoint(sm){
   body {
     font-size: 110%;
   }
@@ -43,10 +44,11 @@
   }
 }
 
-/* ******************************************
-  Media Queries for screen wider than 900px
-****************************************** */
-@media screen and (min-width: 56.25em){
+
+/* **************************************************
+Media Queries for screen wider than 900px (56.25em)
+************************************************** */
+@include breakpoint(md){
   .container-header, 
   .container-content {
     margin: 0 auto;
@@ -137,10 +139,10 @@
 }
 
 
-/* ******************************************
-  Media Queries for screen wider than 1400px
-****************************************** */
-@media screen and (min-width: 87.5em){
+/* *************************************************
+Media Queries for screen wider than 1400px (87.5em) 
+************************************************* */
+@include breakpoint(lg){
 
   body {
     font-size: 150%;
@@ -170,10 +172,10 @@
 }
 
 
-/* ******************************************
-  Media Queries for screen wider than 1800px
-****************************************** */
-@media screen and (min-width: 112.5em){
+/* *************************************************
+Media Queries for screen wider than 1800px (112.5em)
+************************************************* */
+@include breakpoint(xlg){
   .info {
     margin: 0 auto;
     max-width: 90em;
