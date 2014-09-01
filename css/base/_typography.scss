@@ -12,27 +12,27 @@ html {
 
 p, 
 li {
-  font-family: "athelas", Georgia, serif;
-  color: #3d343f;
+  font-family: $font-stack-main;
+  color: $primary-color;
   font-size: 1.25em;
   line-height: 1.44;
   font-style: normal;
 }
 
 h1 {
-  font-family: "league-gothic", sans-serif;
+  font-family: $font-stack-display;
   font-weight: normal;
   font-size: 5.125em;
   line-height: 1;
-  color: #3d343f;
+  color: $primary-color;
   text-transform: uppercase;
   text-align: center;
 }
 
 h3 {
   font-size: 2.25em;
-  color: #54be8e;
-  font-family: "league-gothic", sans-serif;
+  color: $secondary-color;
+  font-family: $font-stack-display;
   font-weight: 400;
   line-height: 1.44;
   text-transform: uppercase;
@@ -52,16 +52,16 @@ a:visited {
 
 .nav {
   li {
-    font-family: "league-gothic", sans-serif;
+    font-family: $font-stack-display;
     font-size: 1.5em;
     line-height: 1;
     text-transform: uppercase;
-    color: #54be8e;
+    color: $secondary-color;
     font-weight: 400;
   }
   a:link, 
   a:visited {
-    color: #54be8e;
+    color: $secondary-color;
     text-decoration: none;
     opacity: 1;
   }
@@ -82,9 +82,9 @@ a:visited {
 .contact {
   a:link, 
   a:visited {
-    color: #54be8e;
+    color: $secondary-color;
     text-decoration: none;
-    border-bottom: 1px dotted #54be8e;
+    border-bottom: 1px dotted $secondary-color;
     transition: all 0.3s ease;
   }
 }
@@ -92,7 +92,7 @@ a:visited {
 .container-footer {
   p {  
     color: #fff;
-    font-family: "athelas", Georgia, serif;
+    font-family: $font-stack-main;
     font-size: 0.875em;
     line-height: 1.44;
     font-style: normal;
@@ -104,38 +104,38 @@ a:visited {
   max-width: 90%;
   margin: 3em auto;
   h2 {
-    font-family: "league-gothic", sans-serif;
+    font-family: $font-stack-display;
     font-weight: normal;
     font-size: 2.1em;
     line-height: 1.05em;
-    color: #3d343f;
+    color: $primary-color;
     text-transform: none;
     text-align: center;
   }
   h4 {
-    font-family: "athelas", Georgia, serif;
+    font-family: $font-stack-main;
     font-weight: 700;
     font-style: italic;
     font-size: 1.25em;
     line-height: 1.1em;
-    color: #54be8e;
+    color: $secondary-color;
     text-align: center;
     padding-top: .3em;
     padding-bottom: .8em;
   }
   p {
-    font-family: "athelas", Georgia, serif;
+    font-family: $font-stack-main;
     font-size: 1.25em;
     font-weight: normal;
     line-height: 1.44;
-    color: #3d343f;
+    color: $primary-color;
     text-align: center;
     padding-top: .8em;
     border-top: 1px solid #ccc;
   }
   a:link, 
   a:visited {
-    color: #3d343f;
+    color: $primary-color;
     text-decoration: none;
     border-bottom: 1px dotted #b7b7b7;
     transition: all 0.3s ease;
@@ -147,18 +147,18 @@ a:visited {
   a:hover, 
   a:active {
     color: #fff;
-    background-color: #54be8e;
+    background-color: $secondary-color;
     text-decoration: none;
     border-bottom: none;
   }
 }
 
 ::-moz-selection {
-  background: #54be8e;
+  background: $secondary-color;
   color: #fff;
 }
 
 ::selection {
-  background: #54be8e;
+  background: $secondary-color;
   color: #fff;
 }

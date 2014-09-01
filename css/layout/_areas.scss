@@ -8,15 +8,15 @@ Layout
 }
 
 body {
-  border-top: 3px solid #54be8e;
+  border-top: 3px solid $secondary-color;
   background-color: #fff;
 }
 
 h1 {
   display: inline-block;
 	padding: .04em 0 0 0;
-	border-top: 1px solid #3d343f;
-	border-bottom: 1px solid #3d343f;
+	border-top: 1px solid $primary-color;
+	border-bottom: 1px solid $primary-color;
   margin: 0 auto;
 }
 
@@ -61,7 +61,7 @@ img {
 }
 
 .container-footer {
-	background: #3d343f;
+	background: $primary-color;
 	margin: 0;
 	padding: 1em .5em;
 }

@@ -1,7 +1,7 @@
 // Base
-@import "base/mixins";
 @import "base/normalize";
 @import "base/resets";
+@import "base/bits";
 @import "base/icons";
 @import "base/typography";
 @import "base/globals";
@@ -12,7 +12,7 @@
 @import "layout/projects";
 
 
-// Module
+// Modules
 
 
 
@@ -63,8 +63,8 @@ Media Queries for screen wider than 900px (56.25em)
   } 
 
   h1 {
-    border-top: 2px solid #3d343f;
-    border-bottom: 2px solid #3d343f;
+    border-top: 2px solid $primary-color;
+    border-bottom: 2px solid $primary-color;
   }
 
   .work figure {
