@@ -95,7 +95,7 @@ Media Queries for screen wider than 900px (56.25em)
   }
 
   .work-item-text {
-    width: 70%;
+    width: 65%;
     max-width: 48em;
     margin: 4em auto;
   }
@@ -105,7 +105,7 @@ Media Queries for screen wider than 900px (56.25em)
   }
 
   .coc-rebranding-top img {
-    width: 60%;
+    width: 50%;
   }
 
   .recruitment-top img {
@@ -144,9 +144,9 @@ Media Queries for screen wider than 1400px (87.5em)
 ************************************************* */
 @include breakpoint(lg){
 
-  body {
-    font-size: 150%;
-  }
+  // body {
+  //  font-size: 150%;
+  // }
 
   .annualreport-top img {
     width: 50%;
