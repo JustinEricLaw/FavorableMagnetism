@@ -1,13 +1,4 @@
 /**************************************************
-VARIABLES: Breakpoints
-**************************************************/
-$break-sm: 31.25em; // 500px
-$break-md: 56.25em; // 900px
-$break-lg: 87.5em; // 1400px
-$break-xlg: 112.5em; // 1800px
-
-
-/**************************************************
 VARIABLES: Colors
 **************************************************/
 $primary-color: #3d343f; // Dark Grey
@@ -22,9 +13,18 @@ $font-stack-main: "athelas", Georgia, serif;
 
 
 /**************************************************
+VARIABLES: Breakpoints
+**************************************************/
+$break-sm: 31.25em; // 500px
+$break-md: 56.25em; // 900px
+$break-lg: 87.5em; // 1400px
+$break-xlg: 112.5em; // 1800px
+
+
+/**************************************************
 MIXINS: Breakpoints
 **************************************************/
-@mixin breakpoint($point) {
+@mixin bp($point) {
   @if $point == sm {
     @media screen and (min-width: $break-sm) { @content; }
   }
@@ -38,3 +38,4 @@ MIXINS: Breakpoints
     @media screen and (min-width: $break-xlg) { @content; }
   }
 }
+

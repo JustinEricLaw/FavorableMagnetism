@@ -10,6 +10,15 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+body {
+  @include bp(sm) {
+    font-size: 110%;
+  }
+  @include bp(md) {
+    font-size: 125%;
+  }
+}
+
 p, 
 li {
   font-family: $font-stack-main;
@@ -89,6 +98,12 @@ a:visited {
   }
 }
 
+.container-header {
+  @include bp(sm) {
+    font-size: 120%;
+  }
+}
+
 .container-footer {
   p {  
     color: #fff;
@@ -151,6 +166,14 @@ a:visited {
     text-decoration: none;
     border-bottom: none;
   }
+}
+
+.colophon {
+  p {
+    @include bp(md) {
+      font-size: 80%;
+    } 
+  } 
 }
 
 ::-moz-selection {
