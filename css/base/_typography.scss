@@ -10,6 +10,13 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+.wf-loading h1,
+.wf-loading li,
+.wf-loading p {
+  font-family: $font-stack-display;
+  visibility: hidden;
+}
+
 body {
   @include bp(sm) {
     font-size: 110%;
