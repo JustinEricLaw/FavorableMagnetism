@@ -8,16 +8,8 @@
     <!-- Viewport meta tag to prevent iPhone from scaling our page -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <!-- Typekit Code -->
-    <script>
-      (function(d) {
-      var config = {
-        kitId: 'pns3okp',
-        scriptTimeout: 3000
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-      })(document);
-    </script>
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Crimson+Text:700italic,400' rel='stylesheet' type='text/css'>
     
     <!-- Main CSS Stylesheet -->  
     <link rel="stylesheet" href="../../css/style.css" />
@@ -27,11 +19,6 @@
 
     <!-- Add media query support for IE8 and under. Must place media queries in external stylesheet -->
     <script async src="../js/respond.min.js"></script>
-
-    <!-- Using picturefill to load conditional images and matchmedia to provide support for IE8 and below + older browsers 
-    <script src="../js/picturefill.js"></script>
-    <script src="../js/matchmedia.js"></script>
-    -->
     
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -128,7 +115,7 @@
 
     <div class="container-footer"> 
       <footer class="colophon">
-        <p>© 2013 Justin Law. All rights reserved.</p> 
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> Justin Law. All rights reserved.</p>  
         <p>Site designed / coded by Justin Law.</p>
       </footer>
     </div>

@@ -35,3 +35,10 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Ignore docs files
+######################
+**/.sass-cache
+**/.sass-cache/*
+.sass-cache
+.sass-cache/*
