@@ -264,13 +264,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/ar_home.jpg": {
+	"\/img\/ar-home.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 159472,
-		"inputAbbreviatedPath": "\/img\/ar_home.jpg",
-		"outputAbbreviatedPath": "\/img\/ar_home.jpg",
+		"inputAbbreviatedPath": "\/img\/ar-home.jpg",
+		"outputAbbreviatedPath": "\/img\/ar-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bleed-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169649,
+		"inputAbbreviatedPath": "\/img\/bleed-home.jpg",
+		"outputAbbreviatedPath": "\/img\/bleed-home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -341,13 +352,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/bleed_home.jpg": {
+	"\/img\/coc-2012-website-home.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 169649,
-		"inputAbbreviatedPath": "\/img\/bleed_home.jpg",
-		"outputAbbreviatedPath": "\/img\/bleed_home.jpg",
+		"initialSize": 153168,
+		"inputAbbreviatedPath": "\/img\/coc-2012-website-home.jpg",
+		"outputAbbreviatedPath": "\/img\/coc-2012-website-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/coc-rebranding-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 231224,
+		"inputAbbreviatedPath": "\/img\/coc-rebranding-home.jpg",
+		"outputAbbreviatedPath": "\/img\/coc-rebranding-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/coc-web-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117609,
+		"inputAbbreviatedPath": "\/img\/coc-web-home.jpg",
+		"outputAbbreviatedPath": "\/img\/coc-web-home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -429,13 +462,68 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/coc_rebranding_home.jpg": {
+	"\/img\/coc_website\/coc-bachelors.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 231224,
-		"inputAbbreviatedPath": "\/img\/coc_rebranding_home.jpg",
-		"outputAbbreviatedPath": "\/img\/coc_rebranding_home.jpg",
+		"initialSize": 455181,
+		"inputAbbreviatedPath": "\/img\/coc_website\/coc-bachelors.jpg",
+		"outputAbbreviatedPath": "\/img\/coc_website\/coc-bachelors.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/coc_website\/coc-homepage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 577870,
+		"inputAbbreviatedPath": "\/img\/coc_website\/coc-homepage.jpg",
+		"outputAbbreviatedPath": "\/img\/coc_website\/coc-homepage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/coc_website\/coc-homepage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/coc_website\/coc-homepage.png",
+		"outputAbbreviatedPath": "\/img\/coc_website\/coc-homepage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/coc_website\/coc-website-top.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 457231,
+		"inputAbbreviatedPath": "\/img\/coc_website\/coc-website-top.jpg",
+		"outputAbbreviatedPath": "\/img\/coc_website\/coc-website-top.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/coc_website\/coc-website-top.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 219193,
+		"inputAbbreviatedPath": "\/img\/coc_website\/coc-website-top.png",
+		"outputAbbreviatedPath": "\/img\/coc_website\/coc-website-top.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/coc_website\/coc-website-top2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 454338,
+		"inputAbbreviatedPath": "\/img\/coc_website\/coc-website-top2.jpg",
+		"outputAbbreviatedPath": "\/img\/coc_website\/coc-website-top2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -491,17 +579,6 @@
 		"initialSize": 262535,
 		"inputAbbreviatedPath": "\/img\/coc_website\/coc_social.png",
 		"outputAbbreviatedPath": "\/img\/coc_website\/coc_social.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/coc_website_home.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 153168,
-		"inputAbbreviatedPath": "\/img\/coc_website_home.jpg",
-		"outputAbbreviatedPath": "\/img\/coc_website_home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -605,6 +682,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/recruitment-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 237590,
+		"inputAbbreviatedPath": "\/img\/recruitment-home.jpg",
+		"outputAbbreviatedPath": "\/img\/recruitment-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/recruitment\/recruitment_career.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -656,17 +744,6 @@
 		"initialSize": 268687,
 		"inputAbbreviatedPath": "\/img\/recruitment\/recruitment_top.png",
 		"outputAbbreviatedPath": "\/img\/recruitment\/recruitment_top.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/recruitment_home.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 237590,
-		"inputAbbreviatedPath": "\/img\/recruitment_home.jpg",
-		"outputAbbreviatedPath": "\/img\/recruitment_home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -832,6 +909,94 @@
 		"initialSize": 47485,
 		"inputAbbreviatedPath": "\/img\/surface.jpg",
 		"outputAbbreviatedPath": "\/img\/surface.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tere-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59991,
+		"inputAbbreviatedPath": "\/img\/tere-home.jpg",
+		"outputAbbreviatedPath": "\/img\/tere-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tereoconnordance\/tere-media.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 492314,
+		"inputAbbreviatedPath": "\/img\/tereoconnordance\/tere-media.jpg",
+		"outputAbbreviatedPath": "\/img\/tereoconnordance\/tere-media.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tereoconnordance\/tere-media.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/tereoconnordance\/tere-media.png",
+		"outputAbbreviatedPath": "\/img\/tereoconnordance\/tere-media.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tereoconnordance\/tere-news.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 282827,
+		"inputAbbreviatedPath": "\/img\/tereoconnordance\/tere-news.jpg",
+		"outputAbbreviatedPath": "\/img\/tereoconnordance\/tere-news.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tereoconnordance\/tere-news.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 287405,
+		"inputAbbreviatedPath": "\/img\/tereoconnordance\/tere-news.png",
+		"outputAbbreviatedPath": "\/img\/tereoconnordance\/tere-news.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tereoconnordance\/tere-tablet-phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76168,
+		"inputAbbreviatedPath": "\/img\/tereoconnordance\/tere-tablet-phone.png",
+		"outputAbbreviatedPath": "\/img\/tereoconnordance\/tere-tablet-phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tereoconnordance\/tere-top.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139319,
+		"inputAbbreviatedPath": "\/img\/tereoconnordance\/tere-top.jpg",
+		"outputAbbreviatedPath": "\/img\/tereoconnordance\/tere-top.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tereoconnordance\/tere-top2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 281893,
+		"inputAbbreviatedPath": "\/img\/tereoconnordance\/tere-top2.jpg",
+		"outputAbbreviatedPath": "\/img\/tereoconnordance\/tere-top2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1006,6 +1171,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/work\/recruitment\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/work\/tereoconnordance\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/work\/tereoconnordance\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
