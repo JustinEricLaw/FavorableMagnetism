@@ -42,3 +42,7 @@ Thumbs.db
 **/.sass-cache/*
 .sass-cache
 .sass-cache/*
+config.codekit
+
+
+
