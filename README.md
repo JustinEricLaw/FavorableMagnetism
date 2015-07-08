@@ -1,3 +1,3 @@
 FavorableMagnetism
 ==================
-Personal portfolio repo. Sandbox for leveling up. No big whoop.
+Personal portfolio website: http://favorablemagnetism.com
