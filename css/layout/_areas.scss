@@ -18,7 +18,7 @@ body {
   }
 }
 
-.container-header, 
+.container-header,
 .container-content {
   @include bp(md) {
     margin: 0 auto;
@@ -45,7 +45,7 @@ img {
 	max-width: 100%;
   height: auto;
   display: block;
-  
+
   /* CSS Tricks IE Hack */
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -61,8 +61,8 @@ img {
   padding-bottom: 1.75em;
 }
 
-.about, 
-.skills, 
+.about,
+.skills,
 .contact {
 	width: 90%;
 	margin: 0 auto;
@@ -100,7 +100,7 @@ img {
   @include bp(xlg) {
     padding-right: 3.15em;
     padding-left: 3.15em;
-  }  
+  }
 }
 
 .contact {
@@ -117,7 +117,7 @@ img {
   @include bp(xlg) {
     padding-right: 3.15em;
     padding-left: 3.15em;
-  }  
+  }
 }
 
 .container-footer {
@@ -148,7 +148,7 @@ img {
       float: left;
       width: 33.333333333333333%;
     }
-  } 
+  }
 }
 
 
@@ -176,5 +176,3 @@ img {
     font-size: 115%;
   }
 }
-
-
