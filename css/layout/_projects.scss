@@ -51,8 +51,8 @@ Projects Layout Styles
   }
 }
 
-.annualreport-top, 
-.recruitment-top, 
+.annualreport-top,
+.recruitment-top,
 .coc-rebranding-top {
   img {
     width: 85%;
@@ -94,6 +94,14 @@ Projects Layout Styles
   img {
     margin: 0 auto;
   }
+}
+
+.tourbuzz-top {
+  background-color: #5e7a9d;
+}
+
+.tourbuzz-work-item-img {
+  border: 1px solid black;
 }
 
 .tere-top {
@@ -176,11 +184,11 @@ Projects Layout Styles
     display: inline-block;
     padding: 0 .4em;
   }
-  a:link, 
+  a:link,
   a:visited {
     text-decoration: none;
   }
-  a:hover, 
+  a:hover,
   a:active {
     opacity: .6;
     transition: opacity 0.3s ease;
@@ -195,5 +203,3 @@ Projects Layout Styles
     margin: 0 auto;
   }
 }
-
-
