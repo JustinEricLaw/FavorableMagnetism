@@ -26,19 +26,16 @@ body {
 }
 
 h1 {
-  display: inline-block;
 	padding: .04em 0 0 0;
-	border-top: 1px solid $primary-color;
-	border-bottom: 1px solid $primary-color;
   margin: 0 auto;
-  @include bp(md) {
-    border-top: 2px solid $primary-color;
-    border-bottom: 2px solid $primary-color;
-  }
 }
 
 .strapline {
-  padding-bottom: .06em;
+  display: inline-block;
+  padding: .75rem 0;
+  margin: 1.75rem 0;
+  border-top: 2px solid $primary-color;
+  border-bottom: 2px solid $primary-color;
 }
 
 img {
@@ -52,7 +49,7 @@ img {
 }
 
 .masthead {
-	padding: 1em 0 .65em 0;
+	padding: 1em 0 0 0;
 	margin: 0 auto;
   text-align: center;
 }

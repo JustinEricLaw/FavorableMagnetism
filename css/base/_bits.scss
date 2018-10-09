@@ -8,7 +8,7 @@ $secondary-color: #54be8e; // Bright Green
 /**************************************************
 VARIABLES: Fonts
 **************************************************/
-$font-stack-display: 'league_gothicregular', sans-serif;
+$font-stack-display: 'Playfair Display', serif;
 $font-stack-main: 'Crimson Text', Georgia, serif;
 
 
@@ -38,4 +38,3 @@ MIXINS: Breakpoints
     @media screen and (min-width: $break-xlg) { @content; }
   }
 }
-

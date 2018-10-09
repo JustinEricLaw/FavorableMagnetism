@@ -10,13 +10,6 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-.wf-loading h1,
-.wf-loading li,
-.wf-loading p {
-  font-family: $font-stack-display;
-  visibility: hidden;
-}
-
 body {
   @include bp(sm) {
     font-size: 110%;
@@ -39,9 +32,8 @@ h1 {
   font-family: $font-stack-display;
   font-weight: normal;
   font-size: 5.125em;
-  line-height: 1;
+  line-height: .95;
   color: $primary-color;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -60,10 +52,13 @@ a:visited {
 }
 
 .strapline {
-	font-size: 1.1875em;
+  font-family: $font-stack-display;
+	font-size: 1.9em;
+  line-height: 1.3;
 	font-weight: 700;
 	font-style: italic;
 	text-align: center;
+  color: $secondary-color;
 }
 
 .nav {
@@ -72,12 +67,12 @@ a:visited {
     font-size: 1.5em;
     line-height: 1;
     text-transform: uppercase;
-    color: $secondary-color;
     font-weight: 400;
+    color: $primary-color;
   }
   a:link,
   a:visited {
-    color: $secondary-color;
+    color: $primary-color;
     text-decoration: none;
     opacity: 1;
   }
