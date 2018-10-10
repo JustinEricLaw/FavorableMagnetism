@@ -7,13 +7,13 @@
 @import "base/globals";
 @import "base/typography";
 
+
 // Layout
 @import "layout/areas";
 @import "layout/header";
 @import "layout/nav";
-@import "layout/projects";
 
 
 // Modules
-@import "module/animate.scss";
-@import "module/animations.scss"
+@import "module/info.scss";
+@import "module/projects.scss";

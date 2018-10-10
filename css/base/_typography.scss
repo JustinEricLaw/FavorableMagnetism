@@ -14,7 +14,7 @@ html {
   }
 
   @include bp(md) {
-    font-size: 120%;
+    font-size: 115%;
   }
 }
 
@@ -26,7 +26,7 @@ li {
   font-family: $font-stack-main;
   color: $primary-color;
   font-size: 1.25em;
-  line-height: 1.44;
+  line-height: 1.5;
   font-style: normal;
 }
 
@@ -35,38 +35,12 @@ a:visited {
   transition: all 0.3s ease;
 }
 
-h3 {
-  font-size: 2.25em;
-  color: $secondary-color;
-  font-family: $font-stack-display;
-  font-weight: 400;
-  line-height: 1.44;
-  text-transform: uppercase;
-}
-
-.skills {
-  li {
-    list-style-position: inside;
-  }
-}
-
-.contact,
-.about {
-  a:link,
-  a:visited {
-    color: $secondary-color;
-    text-decoration: none;
-    border-bottom: 1px solid $secondary-color;
-    transition: all 0.3s ease;
-  }
-}
-
 .container-footer {
   p {
     color: #fff;
     font-family: $font-stack-main;
     font-size: 0.875em;
-    line-height: 1.44;
+    line-height: 1.5;
     font-style: normal;
 	  text-align: center;
   }

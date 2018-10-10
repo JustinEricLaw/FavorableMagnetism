@@ -1,5 +1,5 @@
 /* ******************************************
-Layout
+Layout: Areas
 ****************************************** */
 
 /* apply a natural box layout model to all elements */
@@ -12,14 +12,14 @@ body {
   background-color: #fff;
 }
 
-.container-content {
+.content-container {
   img {
     width: 100%;
   }
 }
 
 .header-container,
-.container-content {
+.content-container {
   @include bp(md) {
     margin: 0 auto;
   }
@@ -33,65 +33,6 @@ img {
   /* CSS Tricks IE Hack */
   border: 0;
   -ms-interpolation-mode: bicubic;
-}
-
-.about,
-.skills,
-.contact {
-	width: 90%;
-	margin: 0 auto;
-  padding-top: 1.8rem;
-}
-
-.about {
-  @include bp(md) {
-    float: left;
-    width: 50%;
-    border-right: 1px dotted #d4d4d4;
-    padding: 2.7rem 1.8rem 3.6rem 1.8rem;
-    padding-bottom: 3.6rem;
-  }
-  @include bp(lg) {
-    padding-right: 2.7rem;
-    padding-left: 2.7rem;
-  }
-  @include bp(xlg) {
-    padding-right: 3.15rem;
-    padding-left: 3.15rem;
-  }
-}
-
-.skills {
-  @include bp(md) {
-    padding: 2.7rem 1.8rem 0 1.8rem;
-    float: right;
-    width: 50%;
-  }
-  @include bp(lg) {
-    padding-right: 2.7rem;
-    padding-left: 2.7rem;
-  }
-  @include bp(xlg) {
-    padding-right: 3.15rem;
-    padding-left: 3.15rem;
-  }
-}
-
-.contact {
-  padding-bottom: 3.6rem;
-  @include bp(md) {
-    float: right;
-    width: 50%;
-    padding: 2.135rem 1.8rem 3.6rem 1.8rem;
-  }
-  @include bp(lg) {
-    padding-right: 2.7rem;
-    padding-left: 2.7rem;
-  }
-  @include bp(xlg) {
-    padding-right: 3.15rem;
-    padding-left: 3.15rem;
-  }
 }
 
 .container-footer {
