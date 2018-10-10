@@ -8,6 +8,9 @@ MIXINS: Breakpoints
   @if $point == md {
     @media screen and (min-width: $break-md) { @content; }
   }
+  @if $point == md2 {
+    @media screen and (min-width: $break-md2) { @content; }
+  }
   @if $point == lg {
     @media screen and (min-width: $break-lg) { @content; }
   }

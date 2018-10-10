@@ -16,6 +16,10 @@ html {
   @include bp(md) {
     font-size: 115%;
   }
+
+  @include bp(md2) {
+    font-size: 118%;
+  }
 }
 
 p,
