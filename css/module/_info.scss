@@ -45,7 +45,7 @@ Info: About, Skills, Contact
     @include bp(md) {
       float: left;
       width: 50%;
-      border-right: 1px dotted #d4d4d4;
+      border-right: 1px dotted $border-color;
       padding: 2.7rem 1.8rem 3.6rem 1.8rem;
       padding-bottom: 3.6rem;
     }
