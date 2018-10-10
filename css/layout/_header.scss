@@ -1,34 +1,36 @@
 /* ******************************************
 Layout: Header
 ****************************************** */
-.masthead {
-  padding: 1rem 0 0 0;
-  margin: 0 auto;
-  text-align: center;
-}
+.header-container {
+  .masthead {
+    padding: 1rem 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+  }
 
-h1 {
-  font-family: $font-stack-display;
-  font-weight: 900;
-  font-size: 5.125em;
-  line-height: .95;
-  color: $primary-color;
-  text-align: center;
-}
+  h1 {
+    font-family: $font-stack-display;
+    font-weight: 900;
+    font-size: 5.125em;
+    line-height: .95;
+    color: $primary-color;
+    text-align: center;
+  }
 
-.strapline {
-  font-family: $font-stack-display;
-  font-size: 1.95em;
-  line-height: 1.3;
-  font-weight: 900;
-  font-style: italic;
-  text-align: center;
-  color: $secondary-color;
-  padding: .5rem 0;
-  margin: 1rem;
-  border-top: 2px solid $border-color;
-  border-bottom: 2px solid $border-color;
-  max-width: 20rem;
-  margin-left: auto;
-  margin-right: auto;
+  .strapline {
+    font-family: $font-stack-display;
+    font-size: 1.95em;
+    line-height: 1.3;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    color: $secondary-color;
+    padding: .5rem 0;
+    margin: 1rem;
+    border-top: 2px solid $border-color;
+    border-bottom: 2px solid $border-color;
+    max-width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
