@@ -1,14 +1,16 @@
 // Base
 @import "base/normalize";
 @import "base/resets";
-@import "base/bits";
+@import "base/vars";
+@import "base/mixins";
 @import "base/fonts";
-@import "base/typography";
 @import "base/globals";
+@import "base/typography";
 
 // Layout
-@import "layout/nav";
 @import "layout/areas";
+@import "layout/header";
+@import "layout/nav";
 @import "layout/projects";
 
 
