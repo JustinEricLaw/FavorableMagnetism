@@ -35,24 +35,6 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-.container-footer {
-	background: $primary-color;
-	margin: 0;
-	padding: 1rem .5rem;
-}
-
-.colophon {
-  text-align: center;
-  margin: 0 auto;
-  p {
-    @include bp(sm) {
-      display: inline-block;
-      text-align: center;
-      margin: 0 auto;
-    }
-  }
-}
-
 .work {
   figure {
     @include bp(sm) {
@@ -80,14 +62,5 @@ img {
   &:hover {
     transition: all .5s ease;
     transform: scale(1.075);
-  }
-}
-
-
-.info {
-  @include bp(xlg) {
-    margin: 0 auto;
-    max-width: 90rem;
-    font-size: 115%;
   }
 }

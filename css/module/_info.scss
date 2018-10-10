@@ -2,6 +2,11 @@
 Info: About, Skills, Contact
 ****************************************** */
 .info {
+  @include bp(xlg) {
+    margin: 0 auto;
+    max-width: 90rem;
+  }
+
   h3 {
     font-size: 2em;
     color: $primary-color;
