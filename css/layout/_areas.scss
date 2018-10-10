@@ -18,24 +18,11 @@ body {
   }
 }
 
-.container-header,
+.header-container,
 .container-content {
   @include bp(md) {
     margin: 0 auto;
   }
-}
-
-h1 {
-	padding: .04em 0 0 0;
-  margin: 0 auto;
-}
-
-.strapline {
-  display: inline-block;
-  padding: .75rem 0;
-  margin: 1.75rem 0;
-  border-top: 2px solid $primary-color;
-  border-bottom: 2px solid $primary-color;
 }
 
 img {
@@ -48,22 +35,12 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-.masthead {
-	padding: 1em 0 0 0;
-	margin: 0 auto;
-  text-align: center;
-}
-
-.nav {
-  padding-bottom: 1.75em;
-}
-
 .about,
 .skills,
 .contact {
 	width: 90%;
 	margin: 0 auto;
-  padding-top: 1.8em;
+  padding-top: 1.8rem;
 }
 
 .about {
@@ -71,56 +48,56 @@ img {
     float: left;
     width: 50%;
     border-right: 1px dotted #d4d4d4;
-    padding: 2.7em 1.8em 3.6em 1.8em;
-    padding-bottom: 3.6em;
+    padding: 2.7rem 1.8rem 3.6rem 1.8rem;
+    padding-bottom: 3.6rem;
   }
   @include bp(lg) {
-    padding-right: 2.7em;
-    padding-left: 2.7em;
+    padding-right: 2.7rem;
+    padding-left: 2.7rem;
   }
   @include bp(xlg) {
-    padding-right: 3.15em;
-    padding-left: 3.15em;
+    padding-right: 3.15rem;
+    padding-left: 3.15rem;
   }
 }
 
 .skills {
   @include bp(md) {
-    padding: 2.7em 1.8em 0 1.8em;
+    padding: 2.7rem 1.8rem 0 1.8rem;
     float: right;
     width: 50%;
   }
   @include bp(lg) {
-    padding-right: 2.7em;
-    padding-left: 2.7em;
+    padding-right: 2.7rem;
+    padding-left: 2.7rem;
   }
   @include bp(xlg) {
-    padding-right: 3.15em;
-    padding-left: 3.15em;
+    padding-right: 3.15rem;
+    padding-left: 3.15rem;
   }
 }
 
 .contact {
-  padding-bottom: 3.6em;
+  padding-bottom: 3.6rem;
   @include bp(md) {
     float: right;
     width: 50%;
-    padding: 2.135em 1.8em 3.6em 1.8em;
+    padding: 2.135rem 1.8rem 3.6rem 1.8rem;
   }
   @include bp(lg) {
-    padding-right: 2.7em;
-    padding-left: 2.7em;
+    padding-right: 2.7rem;
+    padding-left: 2.7rem;
   }
   @include bp(xlg) {
-    padding-right: 3.15em;
-    padding-left: 3.15em;
+    padding-right: 3.15rem;
+    padding-left: 3.15rem;
   }
 }
 
 .container-footer {
 	background: $primary-color;
 	margin: 0;
-	padding: 1em .5em;
+	padding: 1rem .5rem;
 }
 
 .colophon {
@@ -150,7 +127,7 @@ img {
 
 
 .fig {
-  margin-bottom: 0em;
+  margin-bottom: 0;
   background-color: #d7d7d7;
   opacity: 1;
   overflow: hidden;
@@ -169,7 +146,7 @@ img {
 .info {
   @include bp(xlg) {
     margin: 0 auto;
-    max-width: 90em;
+    max-width: 90rem;
     font-size: 115%;
   }
 }

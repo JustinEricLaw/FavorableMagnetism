@@ -2,6 +2,8 @@
 Navbar
 ****************************************** */
 .nav {
+  padding-bottom: 1.25rem;
+
   ul {
     text-align: center;
     margin: 0 auto;
@@ -11,15 +13,14 @@ Navbar
     list-style: none;
     list-style-type:none;
     display: inline-block;
-    padding: 0 .4em;
+    padding: 0 .75rem;
     margin: 0;
-    border-right: 1px solid #d3d3d3;
+    border-right: 1px solid $border-color;
     text-align: left;
-    font-family: $font-stack-display;
-    font-size: 1.5em;
+    font-family: $font-stack-main;
+    font-size: 1.25em;
     line-height: 1;
-    text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 700;
     color: $primary-color;
   }
 

@@ -1,6 +1,12 @@
 /* ******************************************
 Header
 ****************************************** */
+.masthead {
+  padding: 1rem 0 0 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
 h1 {
   font-family: $font-stack-display;
   font-weight: normal;
@@ -8,15 +14,6 @@ h1 {
   line-height: .95;
   color: $primary-color;
   text-align: center;
-}
-
-h3 {
-  font-size: 2.25em;
-  color: $secondary-color;
-  font-family: $font-stack-display;
-  font-weight: 400;
-  line-height: 1.44;
-  text-transform: uppercase;
 }
 
 .strapline {
@@ -27,4 +24,11 @@ h3 {
   font-style: italic;
   text-align: center;
   color: $secondary-color;
+  padding: .5rem 0;
+  margin: 1rem;
+  border-top: 2px solid $border-color;
+  border-bottom: 2px solid $border-color;
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
 }

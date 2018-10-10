@@ -8,16 +8,17 @@ html {
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-}
 
-body {
   @include bp(sm) {
     font-size: 110%;
   }
 
   @include bp(md) {
-    font-size: 125%;
+    font-size: 120%;
   }
+}
+
+body {
 }
 
 p,
@@ -34,6 +35,15 @@ a:visited {
   transition: all 0.3s ease;
 }
 
+h3 {
+  font-size: 2.25em;
+  color: $secondary-color;
+  font-family: $font-stack-display;
+  font-weight: 400;
+  line-height: 1.44;
+  text-transform: uppercase;
+}
+
 .skills {
   li {
     list-style-position: inside;
@@ -48,12 +58,6 @@ a:visited {
     text-decoration: none;
     border-bottom: 1px solid $secondary-color;
     transition: all 0.3s ease;
-  }
-}
-
-.container-header {
-  @include bp(sm) {
-    font-size: 120%;
   }
 }
 
