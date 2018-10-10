@@ -2,7 +2,7 @@
 Layout: Nav
 ****************************************** */
 .nav {
-  padding-bottom: 1.25rem;
+  padding-bottom: 2rem;
 
   ul {
     text-align: center;
@@ -17,8 +17,9 @@ Layout: Nav
     margin: 0;
     border-right: 1px solid $border-color;
     text-align: left;
+    text-transform: uppercase;
     font-family: $font-stack-main;
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 1;
     font-weight: 700;
     color: $primary-color;
