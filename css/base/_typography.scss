@@ -37,17 +37,6 @@ a:visited {
   transition: all 0.3s ease;
 }
 
-.contact,
-.about {
-  a:hover,
-  a:active {
-    color: #fff;
-    background-color: $secondary-color;
-    text-decoration: none;
-    border-bottom: none;
-  }
-}
-
 ::-moz-selection {
   background: $secondary-color;
   color: #fff;
