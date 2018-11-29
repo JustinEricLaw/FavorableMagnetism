@@ -1,1 +1,1 @@
-var testing=function(){console.log("app.js loaded")};testing(),$(function(){$(".fig").on("hover",function(){$(this)})});
+document.addEventListener("DOMContentLoaded",function(){var e=new ScrollTrigger});
