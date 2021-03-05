@@ -1,7 +1,25 @@
+/* ******************************************
+Fonts
+****************************************** */
 @font-face {
-  font-family: 'RoslindaleCondensed';
-  src: url('fonts/RoslindaleCondensed-Regular.woff2') format("woff2"),
-       url('fonts/RoslindaleCondensed-Regular.woff') format("woff");
+  src: url('../fonts/RoslindaleCondensed-Regular.woff2') format("woff2"),
+       url('../fonts/RoslindaleCondensed-Regular.woff') format("woff");
+  font-family: 'Roslindale Condensed';
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url('../fonts/Roslindale-DeckNarrowSemiBoldItalic.woff2') format("woff2"),
+       url('../fonts/Roslindale-DeckNarrowSemiBoldItalic.woff') format("woff");
+  font-family: 'Roslindale Deck';
+  font-weight: 600;
+}
+
+@font-face {
+  src: url('fonts/RoslindaleText-Regular.woff2') format("woff2"),
+       url('fonts/RoslindaleText-Regular.woff') format("woff");
+  font-family: 'Roslindale Text';
   font-style: normal;
   font-weight: normal;
 }
