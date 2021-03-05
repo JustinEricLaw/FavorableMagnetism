@@ -1,0 +1,15 @@
+/* ******************************************
+Typography
+****************************************** */
+h1 {
+  font-family: $headline-font;
+}
+
+h2 {
+  font-family: $sub-headline-font;
+}
+
+a {
+  color: $font-color;
+  text-decoration: none;
+}
