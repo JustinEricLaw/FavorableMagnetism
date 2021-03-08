@@ -2,7 +2,26 @@
 Hero
 ****************************************** */
 .hero-container {
-  padding: 12rem 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  .hero-primary-container {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-primary-wrap {
+    padding: 20rem 1.5rem;
+  }
 
   h1 {
     font-size: 10vw;
@@ -26,12 +45,23 @@ Hero
   }
 
   .hero-status {
-    padding-top: 1rem;
+    padding-top: .75rem;
     text-align: center;
 
-    h2 {
-      font-size: 3.35vw;
+    p {
+      font-family: $sub-headline-font;
+      font-size: 3.15vw;
       line-height: 1.6;
     }
   }
+}
+
+.hero-scroll-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 0;
+  right: 0;
 }

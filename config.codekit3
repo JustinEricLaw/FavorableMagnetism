@@ -2193,6 +2193,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/css\/layout\/_footer.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 5,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/css\/layout\/_footer.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/css\/layout\/_header.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -2216,6 +2230,20 @@
       "ma" : 1,
       "oA" : 1,
       "oAP" : "\/css\/module\/_hero.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/module\/_work.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "dP" : 5,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/css\/module\/_work.css",
       "oF" : 0,
       "oS" : 3,
       "pg" : 0,
@@ -2318,6 +2346,16 @@
       "oA" : 0,
       "oAP" : "\/fonts\/RoslindaleVariable-VF[Deck].woff2",
       "oF" : 0
+    },
+    "\/img\/scroll-arrows.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/scroll-arrows.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/index.html" : {
       "cB" : 0,

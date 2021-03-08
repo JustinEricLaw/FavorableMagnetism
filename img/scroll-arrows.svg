@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Mobile" transform="translate(-172.000000, -620.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(172.500000, 620.899658)">
+                <path d="M8.2831746,36.7434921 L20.4431746,26.0057143 C23.0742857,23.7301587 22.7187302,21.0279365 20.4431746,19.0368254 L8.2831746,8.08571429 L7.71428571,8.65460317 L15.8209524,22.3790476 L15.8209524,22.6634921 L7.71428571,36.3168254 L8.2831746,36.7434921 Z" id="Path" transform="translate(14.999935, 22.414603) rotate(90.000000) translate(-14.999935, -22.414603) "></path>
+                <path d="M8.2831746,21.8006349 L20.4431746,11.0628571 C23.0742857,8.78730159 22.7187302,6.08507937 20.4431746,4.09396825 L8.2831746,-6.85714286 L7.71428571,-6.28825397 L15.7498413,7.43619048 L15.7498413,7.72063492 L7.71428571,21.3739683 L8.2831746,21.8006349 Z" id="Path" transform="translate(14.999935, 7.471746) rotate(90.000000) translate(-14.999935, -7.471746) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

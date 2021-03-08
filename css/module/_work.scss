@@ -1,0 +1,21 @@
+/* ******************************************
+Work (Homepage)
+****************************************** */
+.work-container {
+  margin-top: 250px;
+  display: grid;
+  padding: 0 1rem;
+
+  .work-item {
+    background-color: #B8B8B8;
+    height: 280px;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    h3 {
+      color: $background-color;
+      font-size: 1.25em;
+    }
+  }
+}
