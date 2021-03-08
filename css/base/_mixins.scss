@@ -1,3 +1,11 @@
-/* ******************************************
-Mixins
-****************************************** */
+/**************************************************
+MIXINS: Breakpoints
+**************************************************/
+@mixin breakpoint($point) {
+  @if $point == $break-600 {
+    @media screen and (min-width: $break-600) { @content; }
+  }
+  @if $point == $break-1000 {
+    @media screen and (min-width: $break-1000) { @content; }
+  }
+}
