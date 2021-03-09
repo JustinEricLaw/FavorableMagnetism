@@ -10,6 +10,14 @@ Header
   span, a {
     font-family: $headline-font;
     font-size: 1.25em;
+
+    @include breakpoint($break-500) {
+      font-size: 1.35em;
+    }
+
+    @include breakpoint($break-600) {
+      font-size: 1.45em;
+    }
   }
 
   .header-logo {
@@ -21,6 +29,11 @@ Header
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include breakpoint($break-1000) {
+      height: 42px;
+      width: 42px;
+    }
   }
 
   .nav-list {

@@ -26,6 +26,10 @@ Hero
       padding: 20rem 2.25rem;
       max-width: 32rem;
     }
+
+    @include breakpoint($break-1000) {
+      max-width: none;
+    }
   }
 
   h1 {
@@ -36,12 +40,23 @@ Hero
     @include breakpoint($break-600) {
       font-size: 3.8125em;
     }
+
+    @include breakpoint($break-1000) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   .hero-divider {
     display: flex;
     flex-direction: column;
-    margin: 1rem 0;
+    margin: 1rem auto;
+    max-width: 31rem;
+
+    @include breakpoint($break-1000) {
+      margin: 1rem auto;
+      max-width: 32.5rem;
+    }
 
     &:before,
     &:after {
@@ -65,6 +80,10 @@ Hero
       @include breakpoint($break-600) {
         font-size: 1.1875em;
       }
+
+      @include breakpoint($break-1000) {
+        font-size: 1.25em;
+      }
     }
   }
 }
@@ -77,4 +96,11 @@ Hero
   bottom: 1.5rem;
   left: 0;
   right: 0;
+
+  img {
+    @include breakpoint($break-600) {
+      transform: scale(1.25);
+      transform-origin: bottom;
+    }
+  }
 }
