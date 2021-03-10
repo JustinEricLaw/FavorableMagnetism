@@ -11,4 +11,10 @@ MIXINS: Breakpoints
   @if $point == $break-1000 {
     @media screen and (min-width: $break-1000) { @content; }
   }
+  @if $point == $break-1100 {
+    @media screen and (min-width: $break-1100) { @content; }
+  }
+  @if $point == $break-1500 {
+    @media screen and (min-width: $break-1500) { @content; }
+  }
 }

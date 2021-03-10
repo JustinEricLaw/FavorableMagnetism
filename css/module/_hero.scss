@@ -45,6 +45,14 @@ Hero
       display: flex;
       flex-direction: column;
     }
+
+    @include breakpoint($break-1100) {
+      font-size: 4.2em;
+    }
+
+    @include breakpoint($break-1500) {
+      font-size: 4.75em;
+    }
   }
 
   .hero-divider {
@@ -56,6 +64,14 @@ Hero
     @include breakpoint($break-1000) {
       margin: 1rem auto;
       max-width: 32.5rem;
+    }
+
+    @include breakpoint($break-1000) {
+      max-width: 33.75rem;
+    }
+
+    @include breakpoint($break-1500) {
+      max-width: 39rem;
     }
 
     &:before,
@@ -83,6 +99,14 @@ Hero
 
       @include breakpoint($break-1000) {
         font-size: 1.25em;
+      }
+
+      @include breakpoint($break-1100) {
+        font-size: 1.3em;
+      }
+
+      @include breakpoint($break-1500) {
+        font-size: 1.5em;
       }
     }
   }

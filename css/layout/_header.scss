@@ -6,6 +6,12 @@ Header
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
+  // position: fixed;
+  // left: 0;
+  // right: 0;
+  // top: 0;
+  // background-color: rgba(#161618, .975);
+  // z-index: 2;
 
   span, a {
     font-family: $headline-font;
@@ -17,6 +23,10 @@ Header
 
     @include breakpoint($break-600) {
       font-size: 1.45em;
+    }
+
+    @include breakpoint($break-1100) {
+      font-size: 1.55em;
     }
   }
 
@@ -42,5 +52,9 @@ Header
 
   .nav-link {
     margin-left: 1.75rem;
+
+    @include breakpoint($break-1100) {
+      margin-left: 2.25rem;
+    }
   }
 }
