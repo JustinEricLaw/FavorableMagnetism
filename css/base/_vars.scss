@@ -19,12 +19,15 @@ VARIABLES: Breakpoints
 **************************************************/
 $break-500: 31.25em; // 500px
 $break-600: 37.5em; // 600px
+$break-750: 46.875em; // 700px
 $break-1000: 62.5em; // 1000px
 $break-1100: 68.75em; // 1100px
+$break-1300: 81.25em; // 1300px
 $break-1500: 93.75em; // 1500px
 
 
 /**************************************************
-VARIABLES: Timing
+VARIABLES: Sizing and Timing
 **************************************************/
 $timing-duration: .75s;
+$max-width: 1300px;

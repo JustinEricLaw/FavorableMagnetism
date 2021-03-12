@@ -2,9 +2,19 @@
 Work (Homepage)
 ****************************************** */
 .work-container {
-  margin-top: 250px;
   display: grid;
-  padding: 0 1rem;
+  padding: 0 1.25rem;
+  max-width: $max-width;
+  margin: 15rem auto 5rem auto;
+
+  @include breakpoint($break-750) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  @include breakpoint($break-1100) {
+    grid-gap: 1.25rem;
+  }
 
   .work-item {
     background-color: #B8B8B8;
@@ -13,9 +23,45 @@ Work (Homepage)
     padding: 1rem;
     margin-bottom: 1rem;
 
+    @include breakpoint($break-500) {
+      height: 380px;
+    }
+
+    @include breakpoint($break-600) {
+      height: 480px;
+    }
+
+    @include breakpoint($break-750) {
+      height: 300px;
+      margin-bottom: 0;
+    }
+
+    @include breakpoint($break-1000) {
+      height: 390px;
+      margin-bottom: 0;
+    }
+
+    @include breakpoint($break-1100) {
+      height: 420px;
+      margin-bottom: 0;
+    }
+
+    @include breakpoint($break-1300) {
+      height: 480px;
+      margin-bottom: 0;
+    }
+
     h3 {
       color: $background-color;
       font-size: 1.25em;
+
+      @include breakpoint($break-1000) {
+        font-size: 1.5em;
+      }
+
+      @include breakpoint($break-1100) {
+        font-size: 1.75em;
+      }
     }
   }
 }

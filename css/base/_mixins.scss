@@ -8,11 +8,17 @@ MIXINS: Breakpoints
   @if $point == $break-600 {
     @media screen and (min-width: $break-600) { @content; }
   }
+  @if $point == $break-750 {
+    @media screen and (min-width: $break-750) { @content; }
+  }
   @if $point == $break-1000 {
     @media screen and (min-width: $break-1000) { @content; }
   }
   @if $point == $break-1100 {
     @media screen and (min-width: $break-1100) { @content; }
+  }
+  @if $point == $break-1300 {
+    @media screen and (min-width: $break-1300) { @content; }
   }
   @if $point == $break-1500 {
     @media screen and (min-width: $break-1500) { @content; }
