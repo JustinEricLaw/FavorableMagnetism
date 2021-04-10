@@ -75,7 +75,7 @@ About
       font-size: 1.2em;
     }
 
-    @include breakpoint($break-1300) {
+    @include breakpoint($break-1000) {
       font-size: 1.25em;
     }
   }
