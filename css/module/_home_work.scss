@@ -1,7 +1,7 @@
 /* ******************************************
-Work (Homepage)
+Home Work
 ****************************************** */
-.work-container {
+.home-work-container {
   display: grid;
   padding: 0 1.25rem;
   max-width: $max-width;
@@ -17,28 +17,31 @@ Work (Homepage)
     grid-gap: 1.25rem;
   }
 
-  .work-item {
+  .home-work-item {
+    margin-bottom: 4rem;
+
+    @include breakpoint($break-750) {
+      margin-bottom: 3.5rem;
+    }
+  }
+
+  .home-work-img {
     overflow: hidden;
-    position: relative;
     background-color: #B8B8B8;
     height: 280px;
     border-radius: 8px;
     margin-bottom: 1rem;
-    padding-bottom: 100%;
+    padding-bottom: 80%;
+  }
 
-    @include breakpoint($break-750) {
-      margin-bottom: 0;
-    }
+  .home-work-item-description {
+    text-align: center;
 
     h3 {
       color: white;
-      position: absolute;
-      left: 1.25rem;
-      top: 1.25rem;
-      color: white;
       font-size: 1.5em;
 
-      @include breakpoint($break-1000) {
+      @include breakpoint($break-600) {
         font-size: 1.75em;
       }
 
@@ -46,13 +49,29 @@ Work (Homepage)
         font-size: 2em;
       }
     }
+
+    h5 {
+      color: white;
+      font-size: 1.1em;
+      font-family: $sub-headline-font;
+      margin-top: .5rem;
+
+      @include breakpoint($break-600) {
+        font-size: 1.2em;
+        margin-top: .75rem;
+      }
+
+      @include breakpoint($break-1100) {
+        font-size: 1.375em;
+      }
+    }
   }
 
   /* ******************************************
   Work Items: Urbanimmersive
   ****************************************** */
-  .work-item-urbanimmersive {
-    .work-item {
+  .home-work-urbanimmersive {
+    .home-work-item {
       background-color: #475EF2;
     }
 
@@ -65,8 +84,8 @@ Work (Homepage)
   /* ******************************************
   Work Items: Tourbuzz
   ****************************************** */
-  .work-item-tourbuzz {
-    .work-item {
+  .home-work-tourbuzz {
+    .home-work-item {
       background-color: #5e7a9d;
     }
   }
@@ -75,8 +94,8 @@ Work (Homepage)
   /* ******************************************
   Work Items: Georgia Tech
   ****************************************** */
-  .work-item-gtech {
-    .work-item {
+  .home-work-gtech {
+    .home-work-item {
       background-color: #54be8e;
     }
   }
@@ -85,8 +104,8 @@ Work (Homepage)
   /* ******************************************
   Work Items: Tere O'Connor
   ****************************************** */
-  .work-item-tere {
-    .work-item {
+  .home-work-tere {
+    .home-work-item {
       background-color: #0097d5;
     }
   }
