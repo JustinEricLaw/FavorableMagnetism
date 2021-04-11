@@ -2405,6 +2405,19 @@
       "oAP" : "\/fonts\/RoslindaleVariable-VF[Deck].woff2",
       "oF" : 0
     },
+    "\/img\/gtech-home.jpg" : {
+      "ft" : 16384,
+      "iS" : 88186,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/gtech-home.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/jlaw-lego-height.jpeg" : {
       "ft" : 16384,
       "iS" : 366306,
