@@ -1,5 +1,5 @@
 /* ******************************************
-Work Items (Individual Work Entries)
+Work Items (Individual Work Pages)
 ****************************************** */
 .work-item-container {
   display: grid;
@@ -9,7 +9,7 @@ Work Items (Individual Work Entries)
 
   .work-item-content {
     text-align: center;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 
     h1 {
@@ -47,17 +47,39 @@ Work Items (Individual Work Entries)
       }
     }
 
-    .work-item-img {
+    .work-item-top-img {
       background-color: #B8B8B8;
-      height: 500px;
       border-radius: 8px;
-      padding: 1rem;
       margin: 2.5rem 0;
+      padding-bottom: 80%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .work-item-img {
+      margin: 2.5rem 0;
+
+      img {
+        margin-bottom: 5rem;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .work-item-text {
+      margin: 5rem 0;
+
+      @include breakpoint($break-600) {
+        margin: 7rem 0;
+      }
     }
 
     p {
       font-size: .9em;
-      line-height: 1.6;
+      line-height: 1.7;
 
       @include breakpoint($break-500) {
         font-size: 1em;
@@ -72,7 +94,7 @@ Work Items (Individual Work Entries)
       }
 
       @include breakpoint($break-1000) {
-        font-size: 1.25em;
+        font-size: 1.3em;
       }
     }
 
@@ -80,5 +102,58 @@ Work Items (Individual Work Entries)
       text-decoration: none;
       border-bottom: 1px solid;
     }
+  }
+}
+
+
+/* ******************************************
+Work Items: Urbanimmersive
+****************************************** */
+.work-item-urban.work-item-container {
+  .work-item-top-img {
+    background-color: #475EF2;
+    background-image: url(../img/urbanimmersive/just-3d-macbook.jpg);
+    background-size: cover;
+    padding-bottom: 70%;
+  }
+
+  .work-item-img img {
+    border: 1px solid rgba(white, .5);
+  }
+}
+
+
+/* ******************************************
+Work Items: Tourbuzz
+****************************************** */
+.work-item-tbuzz.work-item-container {
+  .work-item-top-img {
+    background-color: #A8BAC4;
+    background-image: url(../img/tourbuzz/client-panel-top-1000.jpg);
+    padding-bottom: 95%;
+  }
+}
+
+
+/* ******************************************
+Work Items: Georgia Tech
+****************************************** */
+.work-item-gtech.work-item-container {
+  .work-item-top-img {
+    background-color: #C5C3C4;
+    background-image: url(../img/georgia-tech/coc-website-top.jpg);
+    padding-bottom: 70%;
+  }
+}
+
+
+/* ******************************************
+Work Items: Tere O'Connor
+****************************************** */
+.work-item-tere.work-item-container {
+  .work-item-top-img {
+    background-color: #0097d5;
+    background-image: url(../img/tere-oconnor/tere-top.png);
+    padding-bottom: 65%;
   }
 }
