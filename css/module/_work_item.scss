@@ -71,10 +71,6 @@ Work Items (Individual Work Pages)
 
     .work-item-text {
       margin: 5rem 0;
-
-      @include breakpoint($break-600) {
-        margin: 7rem 0;
-      }
     }
 
     p {
@@ -111,10 +107,9 @@ Work Items: Urbanimmersive
 ****************************************** */
 .work-item-urban.work-item-container {
   .work-item-top-img {
-    background-color: #475EF2;
-    background-image: url(../img/urbanimmersive/just-3d-macbook.jpg);
-    background-size: cover;
-    padding-bottom: 70%;
+    background-color: transparent;
+    margin: 5rem 0;
+    padding-bottom: 0;
   }
 
   .work-item-img img {
