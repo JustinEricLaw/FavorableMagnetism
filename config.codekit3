@@ -2496,6 +2496,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/georgia-tech\/georgia-tech-work-top.png" : {
+      "ft" : 32768,
+      "iS" : 117533,
+      "oA" : 0,
+      "oAP" : "\/img\/georgia-tech\/georgia-tech-work-top.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/georgia-tech\/gtech-home.jpg" : {
       "ft" : 16384,
       "iS" : 88186,
@@ -2645,6 +2658,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/tere-oconnor\/tere-work-top.png" : {
+      "ft" : 32768,
+      "iS" : 114576,
+      "oA" : 0,
+      "oAP" : "\/img\/tere-oconnor\/tere-work-top.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

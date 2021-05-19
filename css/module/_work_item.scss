@@ -48,13 +48,9 @@ Work Items (Individual Work Pages)
     }
 
     .work-item-top-img {
-      background-color: #B8B8B8;
-      border-radius: 8px;
-      margin: 2.5rem 0;
-      padding-bottom: 80%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
+      background-color: transparent;
+      margin: 5rem 0;
+      padding-bottom: 0;
     }
 
     .work-item-img {
@@ -106,49 +102,7 @@ Work Items (Individual Work Pages)
 Work Items: Urbanimmersive
 ****************************************** */
 .work-item-urban.work-item-container {
-  .work-item-top-img {
-    background-color: transparent;
-    margin: 5rem 0;
-    padding-bottom: 0;
-  }
-
   .work-item-img img {
     border: 1px solid rgba(white, .5);
-  }
-}
-
-
-/* ******************************************
-Work Items: Tourbuzz
-****************************************** */
-.work-item-tbuzz.work-item-container {
-  .work-item-top-img {
-    background-color: transparent;
-    margin: 5rem 0;
-    padding-bottom: 0;
-  }
-}
-
-
-/* ******************************************
-Work Items: Georgia Tech
-****************************************** */
-.work-item-gtech.work-item-container {
-  .work-item-top-img {
-    background-color: #C5C3C4;
-    background-image: url(../img/georgia-tech/coc-website-top.jpg);
-    padding-bottom: 70%;
-  }
-}
-
-
-/* ******************************************
-Work Items: Tere O'Connor
-****************************************** */
-.work-item-tere.work-item-container {
-  .work-item-top-img {
-    background-color: #0097d5;
-    background-image: url(../img/tere-oconnor/tere-top.png);
-    padding-bottom: 65%;
   }
 }
