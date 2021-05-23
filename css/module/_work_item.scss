@@ -54,15 +54,7 @@ Work Items (Individual Work Pages)
     }
 
     .work-item-img {
-      margin: 2.5rem 0;
-
-      img {
-        margin-bottom: 5rem;
-
-        &:last-of-type {
-          margin-bottom: 0;
-        }
-      }
+      margin: 5rem 0;
     }
 
     .work-item-text {
@@ -103,6 +95,31 @@ Work Items: Urbanimmersive
 ****************************************** */
 .work-item-urban.work-item-container {
   .work-item-img img {
-    border: 1px solid rgba(white, .5);
+    border: 1px solid rgba(white, .3);
+  }
+
+  .work-item-mobile-img {
+    img {
+      margin: 0 auto 5rem;
+    }
+
+    @include breakpoint($break-600) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 2rem;
+      margin: 5rem auto;
+
+      img {
+        margin: 0 auto;
+
+        &:nth-child(1) {
+          margin-right: 0;
+        }
+
+        &:nth-child(2) {
+          margin-left: 0;
+        }
+      }
+    }
   }
 }
