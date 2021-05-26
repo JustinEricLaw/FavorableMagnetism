@@ -130,6 +130,13 @@ Hero
   right: 0;
 
   img {
+    transition: opacity ease .15s;
+
+    &:hover {
+      transition: opacity ease .25s;
+      opacity: .6;
+    }
+
     @include breakpoint($break-600) {
       transform: scale(1.25);
       transform-origin: bottom;

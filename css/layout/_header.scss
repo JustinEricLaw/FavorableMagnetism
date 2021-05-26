@@ -62,10 +62,25 @@ Header
   }
 
   .nav-link {
+    transition: color ease .15s;
     margin-left: 1.75rem;
 
     @include breakpoint($break-1100) {
       margin-left: 2.25rem;
+    }
+
+    &:hover {
+      color: $accent-color;
+      transition: color ease .25s;
+    }
+  }
+
+  .active.nav-link {
+    border-bottom: 2px solid $font-color;
+
+    &:hover {
+      cursor: auto;
+      color: $font-color;
     }
   }
 }
