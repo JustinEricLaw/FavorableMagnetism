@@ -2,6 +2,9 @@
 MIXINS: Breakpoints
 **************************************************/
 @mixin breakpoint($point) {
+  @if $point == $break-400 {
+    @media screen and (min-width: $break-400) { @content; }
+  }
   @if $point == $break-500 {
     @media screen and (min-width: $break-500) { @content; }
   }
