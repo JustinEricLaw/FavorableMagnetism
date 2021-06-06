@@ -6,7 +6,7 @@ Home Work
   padding: 0 1.25rem;
   max-width: $max-width;
   margin: 10rem auto 5rem auto;
-  padding-top: 7.5rem;
+  padding-top: 8rem;
 
   @include breakpoint($break-750) {
     grid-template-columns: 1fr 1fr;
@@ -18,14 +18,12 @@ Home Work
   }
 
   .home-work-item {
+    transition: all ease .25s;
     margin-bottom: 6rem;
-
-    &:hover {
-      //
-    }
   }
 
   .home-work-img {
+    transition: all .15s ease;
     overflow: hidden;
     background-color: #B8B8B8;
     height: 280px;
@@ -42,6 +40,7 @@ Home Work
   }
 
   .home-work-item-description {
+    transition: all ease .25s;
     text-align: center;
 
     h3 {
@@ -73,6 +72,38 @@ Home Work
       }
     }
   }
+
+  // Home Work: Item Hover Effect
+  @keyframes hover-pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(white, 0.7);
+    }
+
+    70% {
+      box-shadow: 0 0 0 10px rgba(white, 0);
+    }
+
+    100% {
+      box-shadow: 0 0 0 0 rgba(white, 0);
+    }
+  }
+
+  .hover-pulse {
+    border-radius: 8px;
+    box-shadow: 0 0 0 0 rgba(white, 1);
+  }
+
+  .home-work-item:hover,
+  .home-work-item:focus,
+  .home-work-item:active {
+    transition: all ease .5s;
+    transform: scale(102%);
+
+    .hover-pulse {
+      animation: hover-pulse 1.5s;
+    }
+  }
+
 
   /* ******************************************
   Home Work: Urbanimmersive
