@@ -18,11 +18,13 @@ Home Work
   }
 
   .home-work-item {
-    transition: all ease .25s;
+    transition: all ease .15s;
     margin-bottom: 6rem;
+    transform-style: preserve-3d;
   }
 
   .home-work-img {
+    transform: scale(1);
     transition: all .15s ease;
     overflow: hidden;
     background-color: #B8B8B8;
@@ -40,7 +42,6 @@ Home Work
   }
 
   .home-work-item-description {
-    transition: all ease .25s;
     text-align: center;
 
     h3 {
@@ -96,8 +97,9 @@ Home Work
   .home-work-item:hover,
   .home-work-item:focus,
   .home-work-item:active {
-    transition: all ease .5s;
+    transition: all ease .25s;
     transform: scale(102%);
+    backface-visibility: hidden;
 
     .hover-pulse {
       animation: hover-pulse 1.5s;
