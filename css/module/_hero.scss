@@ -143,3 +143,31 @@ Hero
     }
   }
 }
+
+
+// MOBILE LANDSCAPE
+.is-mobile {
+  @media (orientation: landscape) {
+    .hero-container {
+      .hero-primary-container {
+        position: relative;
+        padding-top: 3rem;
+      }
+
+      .hero-primary-wrap {
+        max-width: none;
+        padding: 0;
+      }
+
+      h1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 7.5vw;
+      }
+    }
+
+    .hero-scroll-btn {
+      display: none;
+    }
+  }
+}

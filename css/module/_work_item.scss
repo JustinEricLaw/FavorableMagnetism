@@ -62,7 +62,11 @@ Work Items (Individual Work Pages)
     }
 
     .work-item-text {
-      margin: 8rem 0;
+      margin: 5rem 0;
+
+      @include breakpoint($break-750) {
+        margin: 8rem 0;
+      }
     }
 
     p {
@@ -77,7 +81,7 @@ Work Items (Individual Work Pages)
         font-size: 1.1em;
       }
 
-      @include breakpoint($break-600) {
+      @include breakpoint($break-750) {
         font-size: 1.2em;
       }
 
