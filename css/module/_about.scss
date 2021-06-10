@@ -78,7 +78,7 @@ About
     &:before,
     &:after {
       content: '';
-      border-top: 1px solid $border-color;
+      border-top: 1px solid rgba($border-color, .25);
       width: 100%;
       margin: .5rem auto 0;
       height: 1px;
@@ -94,7 +94,7 @@ About
 
   .info-links a {
     transition: color ease .15s;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid $font-color;
     padding-bottom: .15rem;
 
     &:hover {

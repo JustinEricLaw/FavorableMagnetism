@@ -38,7 +38,7 @@ Animation Classes (for ScrollTrigger)
 
   .fromLeftOut {
     transition: transform $timing-duration ease, opacity $timing-duration ease;
-    transform: translate(-1em,0);
+    transform: translate(-2em,0);
     opacity: 0.0;
   }
 
@@ -51,7 +51,7 @@ Animation Classes (for ScrollTrigger)
 
   .fromRightOut {
     transition: transform $timing-duration ease, opacity $timing-duration ease;
-    transform: translate(1em, 0);
+    transform: translate(2em, 0);
     opacity: 0.0;
   }
 

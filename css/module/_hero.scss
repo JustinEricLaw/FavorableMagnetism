@@ -81,7 +81,7 @@ Hero
     &:before,
     &:after {
       content: '';
-      border-top: 1px solid $border-color;
+      border-top: 1px solid rgba($border-color, .75);
       width: 100%;
       margin: 0 auto 0;
       height: 1px;
