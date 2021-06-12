@@ -50,18 +50,10 @@ About
   }
 
   a, p {
-    font-size: .9em;
-    line-height: 1.6;
+    font-size: 1.1em;
+    line-height: 1.7;
 
-    @include breakpoint($break-500) {
-      font-size: 1em;
-    }
-
-    @include breakpoint($break-600) {
-      font-size: 1.1em;
-    }
-
-    @include breakpoint($break-600) {
+    @include breakpoint($break-750) {
       font-size: 1.2em;
     }
 
