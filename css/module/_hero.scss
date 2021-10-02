@@ -54,6 +54,10 @@ Hero
       font-size: 4.2em;
     }
 
+    @include breakpoint($break-1200) {
+      font-size: 4.4em;
+    }
+
     @include breakpoint($break-1500) {
       font-size: 4.75em;
     }
@@ -72,6 +76,10 @@ Hero
 
     @include breakpoint($break-1000) {
       max-width: 33.75rem;
+    }
+
+    @include breakpoint($break-1200) {
+      max-width: 35rem;
     }
 
     @include breakpoint($break-1500) {
@@ -111,6 +119,10 @@ Hero
 
       @include breakpoint($break-1100) {
         font-size: 1.3em;
+      }
+
+      @include breakpoint($break-1200) {
+        font-size: 1.35em;
       }
 
       @include breakpoint($break-1500) {
