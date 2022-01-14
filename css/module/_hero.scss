@@ -48,10 +48,11 @@ Hero
     @include breakpoint($break-1000) {
       display: flex;
       flex-direction: column;
+      font-size: 4.2em;
     }
 
     @include breakpoint($break-1100) {
-      font-size: 4.2em;
+      font-size: 4.5em;
     }
 
     @include breakpoint($break-1200) {
@@ -59,15 +60,15 @@ Hero
     }
 
     @include breakpoint($break-1300) {
-      font-size: 4.6em;
-    }
-
-    @include breakpoint($break-1500) {
       font-size: 4.8em;
     }
 
-    @include breakpoint($break-1800) {
+    @include breakpoint($break-1500) {
       font-size: 5em;
+    }
+
+    @include breakpoint($break-1800) {
+      font-size: 5.2em;
     }
   }
 
@@ -90,8 +91,16 @@ Hero
       max-width: 35rem;
     }
 
+    @include breakpoint($break-1300) {
+      max-width: 37rem;
+    }
+
     @include breakpoint($break-1500) {
       max-width: 39rem;
+    }
+
+    @include breakpoint($break-1800) {
+      max-width: 40rem;
     }
 
     &:before,
