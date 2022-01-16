@@ -45,6 +45,7 @@ Header
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 0;
 
     @include breakpoint($break-1000) {
       height: 42px;

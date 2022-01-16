@@ -25,11 +25,13 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  // opacity: .5;
-  filter: opacity(0.5) contrast(1.5) brightness(1.25);
+  filter: opacity(33%) contrast(133%) brightness(133%);
 }
 
 .main-container {
   flex: 1;
   overflow: hidden;
+  background-color: $background-color;
+  background: linear-gradient(0deg, rgba($background-color, 1) 50%, rgba($background-color, 0.35) 85%, rgba($background-color, 0) 100%);
+  z-index: 1;
 }
