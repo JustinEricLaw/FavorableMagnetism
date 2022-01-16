@@ -7,10 +7,26 @@ html {
 
 body {
   background-color: $background-color;
+}
+
+.body-container {
+  background-color: $background-color;
   color: $font-color;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.body-fog-container {
+  background-color: $background-color;
+  position: fixed !important;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  // opacity: .5;
+  filter: opacity(0.5) contrast(1.5) brightness(1.25);
 }
 
 .main-container {

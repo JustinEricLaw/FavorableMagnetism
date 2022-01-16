@@ -23,101 +23,124 @@
 
 
   <body>
-    <div class="hero-container">
+    <div class="body-fog-container"></div>
+    <div class="body-container">
+      <div class="hero-container">
 
-      <!-- Header/Navigation -->
-      <header class="header-container">
-        <span class="header-logo" href="../../index.html#home-top">JL</span>
-        <nav class="nav-container">
-          <ul class="nav-list">
-            <li><a class="nav-link active">Work</a></li>
-            <li><a class="nav-link" href="about">About</a></li>
-            <li><a class="nav-link" href="mailto:justin.eric.law@gmail.com" target="_blank">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+        <!-- Header/Navigation -->
+        <header class="header-container">
+          <span class="header-logo" href="../../index.html#home-top">JL</span>
+          <nav class="nav-container">
+            <ul class="nav-list">
+              <li><a class="nav-link active">Work</a></li>
+              <li><a class="nav-link" href="about">About</a></li>
+              <li><a class="nav-link" href="mailto:justin.eric.law@gmail.com" target="_blank">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
 
-      <div class="hero-primary-container">
-        <div class="hero-primary-wrap">
-          <h1>
-            <span>Hello, I’m Justin Law</span>
-            <span>an Interface Designer</span>
-            <span>based in Seattle, WA</span>
-          </h1>
-          <div class="hero-status-outer-wrap">
-            <div class="hero-divider"></div>
-            <div class="hero-status">
-              <p>Currently: Front-End Designer/Developer at Urbanimmersive</p>
-              <p>Previously: Senior Designer at Georgia Tech Computing</p>
+        <div class="hero-primary-container">
+          <div class="hero-primary-wrap">
+            <h1>
+              <span>Hello, I’m Justin Law</span>
+              <span>an Interface Designer</span>
+              <span>based in Seattle, WA</span>
+            </h1>
+            <div class="hero-status-outer-wrap">
+              <div class="hero-divider"></div>
+              <div class="hero-status">
+                <p>Currently: Front-End Designer/Developer at Urbanimmersive</p>
+                <p>Previously: Senior Designer at Georgia Tech Computing</p>
+              </div>
             </div>
           </div>
         </div>
+
+        <div class="hero-scroll-btn">
+          <a href="#work">
+            <img src="../img/scroll-arrows.svg" />
+          </a>
+        </div>
       </div>
 
-      <div class="hero-scroll-btn">
-        <a href="#work">
-          <img src="../img/scroll-arrows.svg" />
-        </a>
-      </div>
+      <main class="main-container">
+        <div id="work" class="home-work-container fromBottomOut" data-scroll="toggle(.fromBottomIn, .fromBottomOut) offset(0, 400px) once">
+
+          <!-- Urbanimmersive -->
+          <a href="work/urbanimmersive" class="home-work-item home-work-urban">
+            <div class="home-work-img-container hover-pulse">
+              <div class="home-work-img"></div>
+            </div>
+            <div class="home-work-item-description">
+              <h3>Urbanimmersive</h3>
+              <h5>Real Estate Property Websites</h5>
+            </div>
+          </a>
+
+          <!-- Tourbuzz -->
+          <a href="work/tourbuzz" class="home-work-item home-work-tbuzz">
+            <div class="home-work-img-container hover-pulse">
+              <div class="home-work-img"></div>
+            </div>
+            <div class="home-work-item-description">
+              <h3>Tourbuzz</h3>
+              <h5>Client Panel Redesign</h5>
+            </div>
+          </a>
+
+          <!-- Georgia Tech -->
+          <a href="work/georgia_tech" class="home-work-item home-work-gtech">
+            <div class="home-work-img-container hover-pulse">
+              <div class="home-work-img"></div>
+            </div>
+            <div class="home-work-item-description">
+              <h3>Georgia Tech</h3>
+              <h5>Visual Rebranding & Website</h5>
+            </div>
+          </a>
+
+          <!-- Tere O'Connor -->
+          <a href="work/tere_oconnor" class="home-work-item home-work-tere">
+            <div class="home-work-img-container hover-pulse">
+              <div class="home-work-img"></div>
+            </div>
+            <div class="home-work-item-description">
+              <h3>Tere O'Connor Dance</h3>
+              <h5>Website Design & Development</h5>
+            </div>
+          </a>
+        </div>
+      </main>
+
+      <footer class="footer-container">
+        <p>Website by Justin Law &copy; <script>document.write(new Date().getFullYear());</script></p>
+      </footer>
     </div>
-
-    <main class="main-container">
-      <div id="work" class="home-work-container fromBottomOut" data-scroll="toggle(.fromBottomIn, .fromBottomOut) offset(0, 400px) once">
-
-        <!-- Urbanimmersive -->
-        <a href="work/urbanimmersive" class="home-work-item home-work-urban">
-          <div class="home-work-img-container hover-pulse">
-            <div class="home-work-img"></div>
-          </div>
-          <div class="home-work-item-description">
-            <h3>Urbanimmersive</h3>
-            <h5>Real Estate Property Websites</h5>
-          </div>
-        </a>
-
-        <!-- Tourbuzz -->
-        <a href="work/tourbuzz" class="home-work-item home-work-tbuzz">
-          <div class="home-work-img-container hover-pulse">
-            <div class="home-work-img"></div>
-          </div>
-          <div class="home-work-item-description">
-            <h3>Tourbuzz</h3>
-            <h5>Client Panel Redesign</h5>
-          </div>
-        </a>
-
-        <!-- Georgia Tech -->
-        <a href="work/georgia_tech" class="home-work-item home-work-gtech">
-          <div class="home-work-img-container hover-pulse">
-            <div class="home-work-img"></div>
-          </div>
-          <div class="home-work-item-description">
-            <h3>Georgia Tech</h3>
-            <h5>Visual Rebranding & Website</h5>
-          </div>
-        </a>
-
-        <!-- Tere O'Connor -->
-        <a href="work/tere_oconnor" class="home-work-item home-work-tere">
-          <div class="home-work-img-container hover-pulse">
-            <div class="home-work-img"></div>
-          </div>
-          <div class="home-work-item-description">
-            <h3>Tere O'Connor Dance</h3>
-            <h5>Website Design & Development</h5>
-          </div>
-        </a>
-      </div>
-    </main>
-
-    <footer class="footer-container">
-      <p>Website by Justin Law &copy; <script>document.write(new Date().getFullYear());</script></p>
-    </footer>
 
 
     <!-- Scripts -->
     <script type="text/javascript" src="js/ScrollTrigger.min.js"></script>
     <script type="text/javascript" src="js/app-min.js"></script>
+
+    <script src="js/three.min.js"></script>
+    <script src="js/vanta.fog.min.js"></script>
+    <script>
+    VANTA.FOG({
+      el: ".body-fog-container",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      highlightColor: 0xffffff,
+      midtoneColor: 0x161618,
+      lowlightColor: 0x1f1f1f,
+      baseColor: 0x161618,
+      blurFactor: 0.5,
+      speed: 0.333,
+      zoom: 1
+    })
+    </script>
 
   </body>
 </html>
