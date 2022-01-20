@@ -73,6 +73,7 @@ Header
     &:hover {
       color: $accent-color;
       transition: color ease .25s;
+      text-shadow: 0px 2px 7px rgba($background-color, 75%);
     }
   }
 
