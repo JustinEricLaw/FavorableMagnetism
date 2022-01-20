@@ -7,6 +7,8 @@ Hero
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
+  background: linear-gradient(180deg, $background-color 0%, rgba($background-color, 0.25) 60px, rgba($background-color, 0) 80px);
+  z-index: 1;
 
   .hero-primary-container {
     height: 100%;
