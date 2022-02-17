@@ -832,6 +832,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/urbanimmersive\/ui-zuma-full.jpg" : {
+      "ft" : 16384,
+      "iS" : 1037416,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/urbanimmersive\/ui-zuma-full.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
