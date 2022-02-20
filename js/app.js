@@ -26,7 +26,7 @@ if (window.devicePixelRatio > 1) {
     baseColor: '#161618',
     blurFactor: 0.33,
     speed: 0.44,
-    zoom: 0.5
+    zoom: 0.55
   });
 }
 
