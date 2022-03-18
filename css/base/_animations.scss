@@ -1,4 +1,44 @@
 /* ******************************************
+General Animations
+****************************************** */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInSlow {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes expandOut {
+  0% {
+    width: 0;
+  }
+  35% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
+/* ******************************************
 Animation Classes (for ScrollTrigger)
 ****************************************** */
 @include breakpoint($break-400) {

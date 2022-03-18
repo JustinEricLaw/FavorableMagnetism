@@ -35,4 +35,7 @@ MIXINS: Breakpoints
   @if $point == $break-1800 {
     @media screen and (min-width: $break-1800) { @content; }
   }
+  @if $point == $break-2000 {
+    @media screen and (min-width: $break-2000) { @content; }
+  }
 }
