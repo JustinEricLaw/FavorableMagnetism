@@ -35,10 +35,11 @@ Hero
   }
 
   h1 {
+    @include text-shadow;
     font-size: 10.75vw;
     text-align: center;
     line-height: 1.3;
-    animation: fadeIn ease 3.5s;
+    animation: fadeIn ease 3s;
 
     @include breakpoint($break-500) {
       font-size: 10.75vw;
@@ -85,6 +86,7 @@ Hero
     display: flex;
     flex-direction: column;
     margin: 1rem auto;
+    text-shadow: 0 2px 7px rgb($background-color, 85%);
 
     &:before,
     &:after {
@@ -93,7 +95,8 @@ Hero
       width: 100%;
       margin: 0 auto 0;
       height: 1px;
-      animation: expandOut ease 1.25s;
+      animation: expandOut ease 1s;
+      box-shadow: 0 2px 5px rgba($background-color, 85%);
     }
 
     &:after {
@@ -106,10 +109,11 @@ Hero
     text-align: center;
 
     p {
+      @include text-shadow;
       font-family: $sub-headline-font;
       font-size: 3.15vw;
       line-height: 1.6;
-      animation: fadeInSlow ease 3s;
+      animation: fadeInSlow ease 2.5s;
 
       @include breakpoint($break-600) {
         font-size: 1.1875em;
@@ -151,6 +155,7 @@ Hero
   bottom: 1.5rem;
   left: 0;
   right: 0;
+  animation: fadeInSlow ease 4s;
 
   img {
     transition: opacity ease .15s;

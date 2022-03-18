@@ -63,6 +63,7 @@ Header
   }
 
   .nav-link {
+    @include text-shadow;
     transition: color ease .15s;
     margin-left: 1.75rem;
 
@@ -84,6 +85,14 @@ Header
       cursor: auto;
       color: $font-color;
     }
+  }
+}
+
+
+// Header: Homepage Fade In
+.home {
+  .header-container {
+    animation: fadeInSlow ease 4s;
   }
 }
 
