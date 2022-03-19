@@ -61,12 +61,12 @@ Hero
     }
 
     @include breakpoint($break-1200) {
-      font-size: 5em;
+      font-size: 4.9em;
       line-height: 1.22;
     }
 
     @include breakpoint($break-1300) {
-      font-size: 5.25em;
+      font-size: 5.15em;
     }
 
     @include breakpoint($break-1500) {
