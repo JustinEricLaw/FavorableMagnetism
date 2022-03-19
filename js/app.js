@@ -12,39 +12,42 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 }
 
 // Fog BG Effect Retina
-if (window.devicePixelRatio > 1) {
-  var foggy = VANTA.FOG({
-    el: '.body-fog-container',
-    mouseControls: false,
-    touchControls: false,
-    gyroControls: false,
-    minHeight: 100.00,
-    minWidth: 100.00,
-    highlightColor: '#ffffff',
-    midtoneColor: '#161618',
-    lowlightColor: '#333333',
-    baseColor: '#161618',
-    blurFactor: 0.33,
-    speed: 0.44,
-    zoom: 0.55
-  });
-}
+if (document.body.classList.contains('home')) {
 
-// Fog BG Effect Non-Retina
-else {
-  var foggy = VANTA.FOG({
-    el: '.body-fog-container',
-    mouseControls: false,
-    touchControls: false,
-    gyroControls: false,
-    minHeight: 100.00,
-    minWidth: 100.00,
-    highlightColor: '#ffffff',
-    midtoneColor: '#161618',
-    lowlightColor: '#333333',
-    baseColor: '#161618',
-    blurFactor: 0.33,
-    speed: 0.44,
-    zoom: 1.1
-  });
+  if (window.devicePixelRatio > 1) {
+    var foggy = VANTA.FOG({
+      el: '.body-fog-container',
+      mouseControls: false,
+      touchControls: false,
+      gyroControls: false,
+      minHeight: 100.00,
+      minWidth: 100.00,
+      highlightColor: '#ffffff',
+      midtoneColor: '#161618',
+      lowlightColor: '#333333',
+      baseColor: '#161618',
+      blurFactor: 0.33,
+      speed: 0.44,
+      zoom: 0.55
+    });
+  }
+
+  // Fog BG Effect Non-Retina
+  else {
+    var foggy = VANTA.FOG({
+      el: '.body-fog-container',
+      mouseControls: false,
+      touchControls: false,
+      gyroControls: false,
+      minHeight: 100.00,
+      minWidth: 100.00,
+      highlightColor: '#ffffff',
+      midtoneColor: '#161618',
+      lowlightColor: '#333333',
+      baseColor: '#161618',
+      blurFactor: 0.33,
+      speed: 0.44,
+      zoom: 1.1
+    });
+  }
 }
