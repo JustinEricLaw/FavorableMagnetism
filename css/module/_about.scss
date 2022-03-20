@@ -90,10 +90,12 @@ About
     border-bottom: 1px solid $font-color;
     padding-bottom: .15rem;
 
-    &:hover {
-      color: $accent-color;
-      border-color: $accent-color;
-      transition: all ease .25s;
+    @media (hover: hover) {
+      &:hover {
+        color: $accent-color;
+        border-color: $accent-color;
+        transition: all ease .25s;
+      }
     }
   }
 }
