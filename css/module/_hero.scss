@@ -157,19 +157,20 @@ Hero
   right: 0;
   animation: fadeInSlow ease 4s;
 
-  img {
+  .hero-scroll-svg {
     transition: opacity ease .15s;
+    width: 2rem;
+    filter: drop-shadow(0 3px 5px rgba($background-color, 85%));
+
+    @include breakpoint($break-600) {
+      width: 2.25rem;
+    }
 
     @media (hover: hover) {
       &:hover {
         transition: opacity ease .25s;
         opacity: .6;
       }
-    }
-
-    @include breakpoint($break-600) {
-      transform: scale(1.25);
-      transform-origin: bottom;
     }
   }
 }
