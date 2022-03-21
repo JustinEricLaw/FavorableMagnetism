@@ -116,13 +116,13 @@ Header
   }
 }
 
-.hover-logo-pulse {
-  box-shadow: 0 0 0 0 rgba(white, 1);
-  transition: all ease .15s;
-  transform: scale(1);
-}
-
 @media (hover: hover) {
+  .hover-logo-pulse {
+    box-shadow: 0 0 0 0 rgba(white, 1);
+    transition: all ease .15s;
+    transform: scale(1);
+  }
+
   .hover-logo-pulse:hover,
   .hover-logo-pulse:focus,
   .hover-logo-pulse:active {
