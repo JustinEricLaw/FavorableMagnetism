@@ -85,11 +85,10 @@ Work Items (Individual Work Pages)
 
     p {
       font-size: 1.05em;
-      line-height: 1.65;
+      line-height: 1.6;
 
       @include breakpoint($break-750) {
         font-size: 1.2em;
-        line-height: 1.7;
       }
 
       @include breakpoint($break-1000) {

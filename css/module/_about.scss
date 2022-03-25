@@ -39,11 +39,14 @@ About
 
     a, p {
       font-size: 1.05em;
-      line-height: 1.65;
+      line-height: 1.6;
 
       @include breakpoint($break-750) {
         font-size: 1.2em;
-        line-height: 1.7;
+      }
+
+      @include breakpoint($break-1000) {
+        font-size: 1.25em;
       }
     }
   }
@@ -75,12 +78,13 @@ About
 
   // About Links
   .info-links {
-    margin-top: 1.25rem;
+    margin-top: 1.5rem;
 
     a {
+      font-family: $sub-headline-font;
       transition: color ease .15s;
       border-bottom: 1px solid $font-color;
-      padding-bottom: .15rem;
+      padding-bottom: .125rem;
 
       @media (hover: hover) {
         &:hover {
@@ -132,15 +136,16 @@ About
     }
 
     .about-currently-artist {
-      font-family: $paragraph-font;
+      font-family: $body-font;
       font-size: .85em;
       line-height: 1.7;
     }
 
     .about-currently-title {
-      font-family: $paragraph-font;
+      font-family: $body-font;
       font-size: .85em;
       line-height: 1.7;
+      font-style: italic;
     }
   }
 
@@ -156,10 +161,11 @@ About
     }
 
     p {
-      font-family: $sub-headline-font;
+      font-family: $body-font;
       font-size: .85em;
       margin-top: .75rem;
       text-align: left;
+      font-style: italic;
     }
   }
 }

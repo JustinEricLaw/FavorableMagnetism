@@ -293,52 +293,100 @@
       "oAP" : "\/fonts\/Roslindale-DeckNarrowSemiBoldItalic.woff2",
       "oF" : 0
     },
-    "\/fonts\/RoslindaleCondensed-Regular.woff" : {
+    "\/fonts\/Roslindale-DisplayCondensedBold.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/fonts\/RoslindaleCondensed-Regular.woff",
+      "oAP" : "\/fonts\/Roslindale-DisplayCondensedBold.woff",
       "oF" : 0
     },
-    "\/fonts\/RoslindaleCondensed-Regular.woff2" : {
+    "\/fonts\/Roslindale-DisplayCondensedBold.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/fonts\/RoslindaleCondensed-Regular.woff2",
+      "oAP" : "\/fonts\/Roslindale-DisplayCondensedBold.woff2",
       "oF" : 0
     },
-    "\/fonts\/RoslindaleText-Regular.woff" : {
+    "\/fonts\/Roslindale-DisplayCondensedBoldItalic.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/fonts\/RoslindaleText-Regular.woff",
+      "oAP" : "\/fonts\/Roslindale-DisplayCondensedBoldItalic.woff",
       "oF" : 0
     },
-    "\/fonts\/RoslindaleText-Regular.woff2" : {
+    "\/fonts\/Roslindale-DisplayCondensedBoldItalic.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/fonts\/RoslindaleText-Regular.woff2",
+      "oAP" : "\/fonts\/Roslindale-DisplayCondensedBoldItalic.woff2",
       "oF" : 0
     },
-    "\/fonts\/RoslindaleVariable-VF[Deck].woff" : {
+    "\/fonts\/Roslindale-TextBold.woff" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/fonts\/RoslindaleVariable-VF[Deck].woff",
+      "oAP" : "\/fonts\/Roslindale-TextBold.woff",
       "oF" : 0
     },
-    "\/fonts\/RoslindaleVariable-VF[Deck].woff2" : {
+    "\/fonts\/Roslindale-TextBold.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/fonts\/RoslindaleVariable-VF[Deck].woff2",
+      "oAP" : "\/fonts\/Roslindale-TextBold.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/Roslindale-TextBoldItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/Roslindale-TextBoldItalic.woff",
+      "oF" : 0
+    },
+    "\/fonts\/Roslindale-TextBoldItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/Roslindale-TextBoldItalic.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/Roslindale-TextItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/Roslindale-TextItalic.woff",
+      "oF" : 0
+    },
+    "\/fonts\/Roslindale-TextItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/Roslindale-TextItalic.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/Roslindale-TextRegular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/Roslindale-TextRegular.woff",
+      "oF" : 0
+    },
+    "\/fonts\/Roslindale-TextRegular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/Roslindale-TextRegular.woff2",
       "oF" : 0
     },
     "\/img\/currently\/cate-le-bon-pompeii.jpg" : {
