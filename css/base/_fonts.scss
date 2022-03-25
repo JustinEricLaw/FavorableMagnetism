@@ -10,12 +10,12 @@ Fonts
   font-weight: normal;
 }
 
+// Roslindale Deck Narrow SemiBold Italic
 @font-face {
-  src: url('../fonts/new/Roslindale-DisplayCondensedBoldItalic.woff2') format("woff2"),
-       url('../fonts/new/Roslindale-DisplayCondensedBoldItalic.woff') format("woff");
-  font-family: 'Roslindale Condensed';
-  font-style: italic;
-  font-weight: normal;
+  src: url('../fonts/Roslindale-DeckNarrowSemiBoldItalic.woff2') format("woff2"),
+       url('../fonts/Roslindale-DeckNarrowSemiBoldItalic.woff') format("woff");
+  font-family: 'Roslindale Deck';
+  font-weight: 600;
 }
 
 // Roslindale Text
@@ -27,34 +27,11 @@ Fonts
   font-weight: 400;
 }
 
+// Roslindale Text Italic
 @font-face {
   src: url('../fonts/new/Roslindale-TextItalic.woff2') format("woff2"),
        url('../fonts/new/Roslindale-TextItalic.woff') format("woff");
   font-family: 'Roslindale';
   font-style: italic;
   font-weight: 400;
-}
-
-@font-face {
-  src: url('../fonts/new/Roslindale-TextBold.woff2') format("woff2"),
-       url('../fonts/new/Roslindale-TextBold.woff') format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  src: url('../fonts/new/Roslindale-TextBoldItalic.woff2') format("woff2"),
-       url('../fonts/new/Roslindale-TextBoldItalic.woff') format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: 700;
-}
-
-// Roslindale Deck Narrow SemiBold Italic
-@font-face {
-  src: url('../fonts/Roslindale-DeckNarrowSemiBoldItalic.woff2') format("woff2"),
-       url('../fonts/Roslindale-DeckNarrowSemiBoldItalic.woff') format("woff");
-  font-family: 'Roslindale Deck';
-  font-weight: 600;
 }

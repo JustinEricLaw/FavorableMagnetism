@@ -17,22 +17,22 @@ Header
 
   span, a {
     font-family: $headline-font;
-    font-size: 1.25em;
+    font-size: 1.25rem;
 
     @include breakpoint($break-500) {
-      font-size: 1.35em;
+      font-size: 1.35rem;
     }
 
     @include breakpoint($break-600) {
-      font-size: 1.45em;
+      font-size: 1.45rem;
     }
 
     @include breakpoint($break-1100) {
-      font-size: 1.55em;
+      font-size: 1.55rem;
     }
 
     @include breakpoint($break-1500) {
-      font-size: 1.65em;
+      font-size: 1.65rem;
     }
   }
 

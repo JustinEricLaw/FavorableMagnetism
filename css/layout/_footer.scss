@@ -11,10 +11,10 @@ Footer
   background-color: $background-color;
 
   p {
-    font-size: .7em;
+    font-size: .7rem;
 
     @include breakpoint($break-750) {
-      font-size: .8em;
+      font-size: .8rem;
     }
   }
 }

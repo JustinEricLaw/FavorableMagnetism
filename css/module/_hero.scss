@@ -46,39 +46,39 @@ Hero
     }
 
     @include breakpoint($break-600) {
-      font-size: 3.9em;
+      font-size: 3.9rem;
     }
 
     @include breakpoint($break-1000) {
       display: flex;
       flex-direction: column;
-      font-size: 4.5em;
+      font-size: 4.5rem;
       line-height: 1.25;
     }
 
     @include breakpoint($break-1100) {
-      font-size: 4.65em;
+      font-size: 4.65rem;
     }
 
     @include breakpoint($break-1200) {
-      font-size: 4.9em;
+      font-size: 4.9rem;
       line-height: 1.22;
     }
 
     @include breakpoint($break-1300) {
-      font-size: 5.15em;
+      font-size: 5.15rem;
     }
 
     @include breakpoint($break-1500) {
-      font-size: 5.5em;
+      font-size: 5.5rem;
     }
 
     @include breakpoint($break-1800) {
-      font-size: 5.6em;
+      font-size: 5.6rem;
     }
 
     @include breakpoint($break-2000) {
-      font-size: 6em;
+      font-size: 6rem;
     }
   }
 
@@ -116,32 +116,32 @@ Hero
       animation: fadeInSlow ease 2.5s;
 
       @include breakpoint($break-600) {
-        font-size: 1.1875em;
+        font-size: 1.1875rem;
       }
 
       @include breakpoint($break-1000) {
-        font-size: 1.25em;
+        font-size: 1.25rem;
       }
 
       @include breakpoint($break-1100) {
-        font-size: 1.35em;
+        font-size: 1.35rem;
       }
 
       @include breakpoint($break-1200) {
-        font-size: 1.45em;
+        font-size: 1.45rem;
         line-height: 1.5;
       }
 
       @include breakpoint($break-1500) {
-        font-size: 1.6em;
+        font-size: 1.6rem;
       }
 
       @include breakpoint($break-1800) {
-        font-size: 1.65em;
+        font-size: 1.65rem;
       }
 
       @include breakpoint($break-2000) {
-        font-size: 1.7em;
+        font-size: 1.7rem;
       }
     }
   }

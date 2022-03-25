@@ -46,49 +46,35 @@ Home Work
 
     h3 {
       color: white;
-      font-size: 1.5em;
+      font-size: 1.5rem;
 
       @include breakpoint($break-600) {
-        font-size: 1.75em;
+        font-size: 1.75rem;
       }
 
       @include breakpoint($break-1100) {
-        font-size: 2em;
+        font-size: 2rem;
       }
     }
 
     h5 {
       color: white;
-      font-size: 1.1em;
+      font-size: 1.1rem;
       font-family: $sub-headline-font;
       margin-top: .5rem;
 
       @include breakpoint($break-600) {
-        font-size: 1.2em;
+        font-size: 1.2rem;
         margin-top: .75rem;
       }
 
       @include breakpoint($break-1100) {
-        font-size: 1.375em;
+        font-size: 1.375rem;
       }
     }
   }
 
   // Home Work: Item Hover Effect
-  @keyframes hover-pulse {
-    0% {
-      box-shadow: 0 0 0 0 rgba(white, 0.7);
-    }
-
-    70% {
-      box-shadow: 0 0 0 10px rgba(white, 0);
-    }
-
-    100% {
-      box-shadow: 0 0 0 0 rgba(white, 0);
-    }
-  }
-
   .hover-pulse {
     border-radius: 8px;
     box-shadow: 0 0 0 0 rgba(white, 1);
