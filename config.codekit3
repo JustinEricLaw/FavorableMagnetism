@@ -341,6 +341,45 @@
       "oAP" : "\/fonts\/RoslindaleVariable-VF[Deck].woff2",
       "oF" : 0
     },
+    "\/img\/currently\/cate-le-bon-pompeii.jpg" : {
+      "ft" : 16384,
+      "iS" : 90504,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/currently\/cate-le-bon-pompeii.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/currently\/mark-lanegan-windingsheet.jpg" : {
+      "ft" : 16384,
+      "iS" : 21063,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/currently\/mark-lanegan-windingsheet.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/currently\/oliver-sacks-musicophilia.jpg" : {
+      "ft" : 16384,
+      "iS" : 66163,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/currently\/oliver-sacks-musicophilia.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/georgia-tech\/annualreport_community.jpg" : {
       "ft" : 16384,
       "iS" : 409115,
