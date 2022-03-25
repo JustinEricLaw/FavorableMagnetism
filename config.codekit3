@@ -354,12 +354,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/currently\/mark-lanegan-windingsheet.jpg" : {
+    "\/img\/currently\/mark-lanegan-winding-sheet.jpg" : {
       "ft" : 16384,
-      "iS" : 21063,
+      "iS" : 55813,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/img\/currently\/mark-lanegan-windingsheet.jpg",
+      "oAP" : "\/img\/currently\/mark-lanegan-winding-sheet.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -375,7 +375,7 @@
       "oAP" : "\/img\/currently\/oliver-sacks-musicophilia.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -503,6 +503,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/gtech-home.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/jl-about.jpeg" : {
+      "ft" : 16384,
+      "iS" : 429041,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/jl-about.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

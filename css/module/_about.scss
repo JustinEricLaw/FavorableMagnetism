@@ -9,68 +9,50 @@ About
   animation: fadeIn ease 2s;
 
   @include breakpoint($break-1000) {
-    grid-template-columns: 4fr 3fr;
-    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
   }
 
-  @include breakpoint($break-1200) {
-    grid-template-columns: 6fr 5fr;
-  }
-
-  .about-img-container {
+  // About Content
+  .about-content-container {
     @include breakpoint($break-1000) {
-      order: 1;
+      order: 2;
     }
 
-    .about-img-wrap {
-      overflow: hidden;
-      border-radius: 8px;
+    h1 {
+      font-size: 2em;
+      line-height: 1.3;
+      margin-bottom: 1rem;
+
+      @include breakpoint($break-600) {
+        font-size: 2.25em;
+      }
+
+      @include breakpoint($break-1000) {
+        font-size: 2.5em;
+      }
+
+      @include breakpoint($break-1300) {
+        font-size: 2.75em;
+      }
     }
 
-    p {
-      font-family: $sub-headline-font;
-      font-size: .85em;
-      margin-top: .75rem;
-      text-align: right;
-    }
-  }
+    a, p {
+      font-size: 1.05em;
+      line-height: 1.65;
 
-  h1 {
-    font-size: 2em;
-    line-height: 1.3;
-    margin-bottom: 1rem;
-
-    @include breakpoint($break-600) {
-      font-size: 2.25em;
-    }
-
-    @include breakpoint($break-1000) {
-      font-size: 2.5em;
-    }
-
-    @include breakpoint($break-1300) {
-      font-size: 2.75em;
+      @include breakpoint($break-750) {
+        font-size: 1.2em;
+        line-height: 1.7;
+      }
     }
   }
 
-  a, p {
-    font-size: 1.05em;
-    line-height: 1.65;
-
-    @include breakpoint($break-750) {
-      font-size: 1.2em;
-      line-height: 1.7;
-    }
-
-    @include breakpoint($break-1000) {
-      font-size: 1.25em;
-    }
-  }
-
+  // Section Divider
   .about-section-divider {
     display: flex;
     flex-direction: column;
-    margin: 2.25rem auto;
+    margin: 2.5rem auto;
 
     &:before,
     &:after {
@@ -83,12 +65,15 @@ About
     &:before {
       margin-top: 0;
     }
+
+    &:last-child {
+      @include breakpoint($break-1000) {
+        display: none;
+      }
+    }
   }
 
-  .about-info-divider {
-    margin: 0 .5rem;
-  }
-
+  // About Links
   .info-links {
     margin-top: 1.25rem;
 
@@ -107,35 +92,74 @@ About
     }
   }
 
+  // Link Dividers
+  .about-info-divider {
+    margin: 0 .5rem;
+  }
+
   // Currently Listening/Reading Section
   .about-currently-container {
+    .about-currently-content {
+      @include breakpoint($break-600) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+      }
 
+      @include breakpoint($break-750) {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+
+    .about-currently-item {
+      &:not(:last-of-type) {
+        margin-bottom: 2rem;
+
+        @include breakpoint($break-750) {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .about-currently-cover {
+      img {
+        border: 1px solid $border-color;
+      }
+    }
+
+    .about-currently-info {
+      margin-top: .5rem;
+    }
+
+    .about-currently-artist {
+      font-family: $paragraph-font;
+      font-size: .85em;
+      line-height: 1.7;
+    }
+
+    .about-currently-title {
+      font-family: $paragraph-font;
+      font-size: .85em;
+      line-height: 1.7;
+    }
   }
 
-  .about-currently-item {
-    margin-bottom: 2rem;
-  }
+  // About Image
+  .about-img-container {
+    @include breakpoint($break-1000) {
+      order: 1;
+    }
 
-  .about-currently-cover {
-    background-color: $border-color;
-    max-height: 200px;
-    max-width: 200px;
-    border: 1px solid $border-color;
-  }
+    .about-img-wrap {
+      overflow: hidden;
+      border-radius: 8px;
+    }
 
-  .about-currently-info {
-    margin-top: .5rem;
-  }
-
-  .about-currently-artist {
-    font-family: $paragraph-font;
-    font-size: .85em;
-    line-height: 1.7;
-  }
-
-  .about-currently-title {
-    font-family: $paragraph-font;
-    font-size: .85em;
-    line-height: 1.7;
+    p {
+      font-family: $sub-headline-font;
+      font-size: .85em;
+      margin-top: .75rem;
+      text-align: left;
+    }
   }
 }
