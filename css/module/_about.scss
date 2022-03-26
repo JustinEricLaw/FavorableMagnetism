@@ -9,7 +9,7 @@ About
   animation: fadeIn ease 2s;
 
   @include breakpoint($break-1000) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 5fr 6fr;
     grid-gap: 1.5rem;
   }
 
@@ -55,7 +55,7 @@ About
   .about-section-divider {
     display: flex;
     flex-direction: column;
-    margin: 2.5rem auto;
+    margin: 2.25rem auto;
 
     &:before,
     &:after {
@@ -78,7 +78,7 @@ About
 
   // About Links
   .info-links {
-    margin-top: 1.5rem;
+    margin-top: 1.25rem;
 
     a {
       font-family: $sub-headline-font;
