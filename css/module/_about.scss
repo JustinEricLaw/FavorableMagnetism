@@ -55,12 +55,12 @@ About
   .about-section-divider {
     display: flex;
     flex-direction: column;
-    margin: 2.25rem auto;
+    margin: 2.5rem auto;
 
     &:before,
     &:after {
       content: '';
-      border-top: 1px solid rgba($border-color, .5);
+      border-top: 1px solid rgba($border-color, .25);
       width: 100%;
       margin: .5rem auto 0;
       height: 1px;
@@ -177,16 +177,32 @@ About
     }
 
     .about-img-wrap {
-      overflow: hidden;
-      border-radius: 8px;
+      position: relative;
+
+      img {
+        border-radius: 8px;
+      }
+    }
+
+    .about-img-overlay {
+      background: linear-gradient(0deg, rgba(22, 22, 24, 0.5) 15%, rgba(22, 22, 24, 0) 100%);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 7rem;
+      width: 100%;
     }
 
     p {
+      @include text-shadow;
       font-family: $body-font;
       font-size: .85rem;
       margin-top: .75rem;
       text-align: left;
       font-style: italic;
+      position: absolute;
+      left: 0.75rem;
+      bottom: 0.75rem;
     }
   }
 }
