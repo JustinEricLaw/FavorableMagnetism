@@ -67,7 +67,7 @@ Work Items (Individual Work Pages)
       padding-bottom: 0;
 
       @include breakpoint($break-750) {
-        margin: 5rem 0;
+        margin: 3rem 0 4.5rem;
       }
     }
 
@@ -85,19 +85,40 @@ Work Items (Individual Work Pages)
       margin-bottom: 4.5rem;
 
       .work-item-section-heading {
-        font-size: 1.625rem;
+        font-size: 1.35rem;
         padding-bottom: .75rem;
         border-bottom: 1px solid $border-color;
         margin-bottom: .75rem;
+
+        @include breakpoint($break-600) {
+          font-size: 1.5rem;
+        }
+
+        @include breakpoint($break-750) {
+          font-size: 1.625rem;
+        }
       }
 
       .work-item-overview-wrap {
         display: flex;
+        padding-bottom: 0.5rem;
       }
 
       .work-item-ov-left {
         font-style: italic;
-        min-width: 8rem;
+        min-width: 7rem;
+
+        @include breakpoint($break-750) {
+          min-width: 8rem;
+        }
+      }
+
+      .work-item-text {
+        margin-top: 1.5rem;
+      }
+
+      .work-item-text:first-of-type {
+        margin-top: 0;
       }
     }
 
@@ -117,10 +138,6 @@ Work Items (Individual Work Pages)
     a {
       text-decoration: none;
       border-bottom: 1px solid;
-    }
-
-    .work-item-text:nth-child(n+1) {
-      margin-top: 1.5rem;
     }
   }
 }
