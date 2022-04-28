@@ -8,7 +8,7 @@ Work Items (Individual Work Pages)
   margin: 12rem auto 7rem;
 
   .work-item-content {
-    max-width: 1000px;
+    max-width: 880px;
     margin: 0 auto;
     animation: fadeIn ease 2s;
 
@@ -63,11 +63,11 @@ Work Items (Individual Work Pages)
 
     .work-item-top-img {
       background-color: transparent;
-      margin: 3rem 0;
+      margin: 3rem auto;
       padding-bottom: 0;
 
       @include breakpoint($break-750) {
-        margin: 3rem 0 4.5rem;
+        margin: 3rem auto 4.5rem;
       }
     }
 
@@ -79,10 +79,21 @@ Work Items (Individual Work Pages)
       }
     }
 
+    .work-item-img-rounded {
+      border-radius: $border-radius;
+    }
+
+    .work-item-content-img {
+      margin-top: 2.5rem;
+    }
+
     .work-item-text-container {
-      max-width: 41rem;
-      margin: 0 auto;
-      margin-bottom: 4.5rem;
+      margin-bottom: 5rem;
+
+      .work-item-text-content {
+        max-width: 44rem;
+        margin: 0 auto;
+      }
 
       .work-item-section-heading {
         font-size: 1.35rem;
@@ -102,15 +113,29 @@ Work Items (Individual Work Pages)
       .work-item-overview-wrap {
         display: flex;
         padding-bottom: 0.5rem;
+        border-bottom: 1px dashed rgba($border-color, .25);
+        margin-bottom: 0.5rem;
+        align-items: baseline;
+
+        &:last-of-type {
+          border: none;
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
       }
 
       .work-item-ov-left {
-        font-style: italic;
         min-width: 7rem;
+        font-size: .875rem;
+        text-transform: uppercase;
 
         @include breakpoint($break-750) {
           min-width: 8rem;
         }
+      }
+
+      .work-item-ov-right {
+
       }
 
       .work-item-text {

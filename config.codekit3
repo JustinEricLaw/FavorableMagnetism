@@ -737,6 +737,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/tourbuzz\/client-panel-desktop-wireframe.png" : {
+      "ft" : 32768,
+      "iS" : 57300,
+      "oA" : 0,
+      "oAP" : "\/img\/tourbuzz\/client-panel-desktop-wireframe.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/tourbuzz\/client-panel-media-mockup.png" : {
+      "ft" : 32768,
+      "iS" : 893132,
+      "oA" : 0,
+      "oAP" : "\/img\/tourbuzz\/client-panel-media-mockup.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/tourbuzz\/client-panel-media.jpg" : {
       "ft" : 16384,
       "iS" : 204537,
@@ -746,6 +772,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/tourbuzz\/client-panel-mobile-mockups.png" : {
+      "ft" : 32768,
+      "iS" : 346526,
+      "oA" : 0,
+      "oAP" : "\/img\/tourbuzz\/client-panel-mobile-mockups.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -781,6 +820,19 @@
       "iS" : 1127369,
       "oA" : 0,
       "oAP" : "\/img\/tourbuzz\/client-panel-top.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/tourbuzz\/client-panel-wireframes.png" : {
+      "ft" : 32768,
+      "iS" : 77229,
+      "oA" : 0,
+      "oAP" : "\/img\/tourbuzz\/client-panel-wireframes.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
