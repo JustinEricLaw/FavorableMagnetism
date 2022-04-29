@@ -113,7 +113,7 @@ Work Items (Individual Work Pages)
       .work-item-overview-wrap {
         display: flex;
         padding-bottom: 0.5rem;
-        border-bottom: 1px dashed rgba($border-color, .25);
+        border-bottom: 1px dashed rgba($border-color, .375);
         margin-bottom: 0.5rem;
         align-items: baseline;
 
@@ -125,17 +125,14 @@ Work Items (Individual Work Pages)
       }
 
       .work-item-ov-left {
-        min-width: 7rem;
-        font-size: .875rem;
+        min-width: 6.75rem;
+        font-size: .8rem;
         text-transform: uppercase;
 
         @include breakpoint($break-750) {
           min-width: 8rem;
+          font-size: .875rem;
         }
-      }
-
-      .work-item-ov-right {
-
       }
 
       .work-item-text {

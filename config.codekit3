@@ -724,6 +724,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/tourbuzz\/client-panel-address-wireframe.png" : {
+      "ft" : 32768,
+      "iS" : 57300,
+      "oA" : 0,
+      "oAP" : "\/img\/tourbuzz\/client-panel-address-wireframe.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/tourbuzz\/client-panel-address.jpg" : {
       "ft" : 16384,
       "iS" : 170088,
@@ -733,19 +746,6 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/img\/tourbuzz\/client-panel-desktop-wireframe.png" : {
-      "ft" : 32768,
-      "iS" : 57300,
-      "oA" : 0,
-      "oAP" : "\/img\/tourbuzz\/client-panel-desktop-wireframe.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -823,6 +823,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/tourbuzz\/client-panel-tours-wireframe.png" : {
+      "ft" : 32768,
+      "iS" : 47753,
+      "oA" : 0,
+      "oAP" : "\/img\/tourbuzz\/client-panel-tours-wireframe.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
