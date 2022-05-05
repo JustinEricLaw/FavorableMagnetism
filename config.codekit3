@@ -1010,6 +1010,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/urbanimmersive\/zuma-desktop.jpg" : {
+      "ft" : 16384,
+      "iS" : 1600423,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/urbanimmersive\/zuma-desktop.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/urbanimmersive\/zuma-desktop.png" : {
+      "ft" : 32768,
+      "iS" : 2383624,
+      "oA" : 0,
+      "oAP" : "\/img\/urbanimmersive\/zuma-desktop.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,

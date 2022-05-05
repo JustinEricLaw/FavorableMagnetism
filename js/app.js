@@ -47,7 +47,7 @@ if (document.body.classList.contains('home')) {
       baseColor: '#161618',
       blurFactor: 0.33,
       speed: 0.44,
-      zoom: 1.1
+      zoom: 1.33
     });
   }
 }
