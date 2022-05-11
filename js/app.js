@@ -24,7 +24,7 @@ if (document.body.classList.contains('home')) {
       minWidth: 100.00,
       highlightColor: '#ffffff',
       midtoneColor: '#161618',
-      lowlightColor: '#333333',
+      lowlightColor: '#777777',
       baseColor: '#161618',
       blurFactor: 0.33,
       speed: 0.44,
@@ -43,11 +43,11 @@ if (document.body.classList.contains('home')) {
       minWidth: 100.00,
       highlightColor: '#ffffff',
       midtoneColor: '#161618',
-      lowlightColor: '#333333',
+      lowlightColor: '#777777',
       baseColor: '#161618',
       blurFactor: 0.33,
       speed: 0.44,
-      zoom: 1.33
+      zoom: 1.55
     });
   }
 }
