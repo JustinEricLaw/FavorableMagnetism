@@ -61,12 +61,12 @@ Hero
     }
 
     @include breakpoint($break-1200) {
-      font-size: 4.9rem;
+      font-size: 5rem;
       line-height: 1.2;
     }
 
     @include breakpoint($break-1300) {
-      font-size: 5.15rem;
+      font-size: 5.2rem;
     }
 
     @include breakpoint($break-1500) {
@@ -91,7 +91,7 @@ Hero
     &:before,
     &:after {
       content: '';
-      border-top: 1px solid rgba($border-color, .75);
+      border-top: 1px solid rgba($font-color, .5);
       width: 100%;
       margin: 0 auto 0;
       height: 1px;
