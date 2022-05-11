@@ -958,6 +958,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/urbanimmersive\/premier-desktop.jpg" : {
+      "ft" : 16384,
+      "iS" : 255647,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/urbanimmersive\/premier-desktop.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/urbanimmersive\/ui-lattice.png" : {
       "ft" : 32768,
       "iS" : 1213173,
@@ -1025,13 +1038,26 @@
     },
     "\/img\/urbanimmersive\/zuma-desktop.png" : {
       "ft" : 32768,
-      "iS" : 2383624,
+      "iS" : 609446,
       "oA" : 0,
       "oAP" : "\/img\/urbanimmersive\/zuma-desktop.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/urbanimmersive\/zuma-reel-desktop.jpg" : {
+      "ft" : 16384,
+      "iS" : 339738,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/urbanimmersive\/zuma-reel-desktop.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
