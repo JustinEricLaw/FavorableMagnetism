@@ -36,6 +36,8 @@ Hero
 
   h1 {
     @include text-shadow;
+    display: flex;
+    flex-direction: column;
     font-size: 10.75vw;
     text-align: center;
     line-height: 1.3;
@@ -50,8 +52,6 @@ Hero
     }
 
     @include breakpoint($break-1000) {
-      display: flex;
-      flex-direction: column;
       font-size: 4.5rem;
       line-height: 1.22;
     }
@@ -111,7 +111,7 @@ Hero
     p {
       @include text-shadow;
       font-family: $sub-headline-font;
-      font-size: 3.15vw;
+      font-size: 3.5vw;
       line-height: 1.6;
       animation: fadeInSlow ease 2.5s;
 
